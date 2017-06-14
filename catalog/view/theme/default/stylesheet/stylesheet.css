@@ -46,6 +46,7 @@ label {
 	font-size: 12px;
 	font-weight: normal;
 }
+
 select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
 	font-size: 12px;
 }
@@ -85,6 +86,8 @@ div.required .control-label:before {
 	margin: 0 0 20px 0;
 	min-height: 40px;
 }
+
+
 #top .container {
 	padding: 0 20px;
 }
@@ -128,9 +131,42 @@ div.required .control-label:before {
 #logo {
 	margin: 0 0 10px 0;
 }
+/* headerText */
+div#pos1{
+color: red;
+}
+div#pos2{
+color: green;
+}
+div#pos3{
+color: yellow;
+}
+#headerText{
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #FFF;
+}
+
+#headerText.text1 {
+	font-size: 12px;
+	margin-left = 20px;	
+	color: #FFF;
+}
+#headerText.text2 {
+	font-size: 20px;
+	margin-left = 30px;
+	color: #222;
+}
+#headerText.text3 {
+	font-size: 30px;
+	margin-left = 40px;
+	color: #333;
+}
+
 /* search */
 #search {
 	margin-bottom: 10px;
+
 }
 #search .input-lg {
 	height: 40px;

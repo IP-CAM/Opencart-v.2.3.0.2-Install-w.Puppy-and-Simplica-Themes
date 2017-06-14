@@ -38,10 +38,11 @@
 <?php } ?>
 </head>
 <body class="<?php echo $class; ?>">
+<!--
 <nav id="top">
   <div class="container">
-    <?php echo $currency; ?>
     <?php echo $language; ?>
+	<?php echo $currency; ?>
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
         <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
@@ -66,6 +67,7 @@
     </div>
   </div>
 </nav>
+-->
 <header>
   <div class="container">
     <div class="row">
@@ -78,9 +80,11 @@
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-5"><?php echo $search; ?>
+	
+    <!--  <div class="col-sm-3"><?php echo $cart; ?></div> -->
+	<div class="col-sm-5"><?php echo $headerText; ?></div>
+	  <div class="col-sm-3"><?php echo $search; ?>
       </div>
-      <div class="col-sm-3"><?php echo $cart; ?></div>
     </div>
   </div>
 </header>
@@ -125,6 +129,7 @@
         <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
           <div class="dropdown-menu">
             <div class="dropdown-inner">
+			
               <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
               <ul class="list-unstyled">
                 <?php foreach ($children as $child) { ?>
