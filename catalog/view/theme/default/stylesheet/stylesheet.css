@@ -132,15 +132,6 @@ div.required .control-label:before {
 	margin: 0 0 10px 0;
 }
 /* headerText */
-div#pos1{
-color: red;
-}
-div#pos2{
-color: green;
-}
-div#pos3{
-color: yellow;
-}
 #headerText{
 	margin-bottom: 10px;
 	font-size: 20px;
@@ -149,17 +140,17 @@ color: yellow;
 
 #headerText.text1 {
 	font-size: 12px;
-	margin-left = 20px;	
+	margin-left: 20px;
 	color: #FFF;
 }
 #headerText.text2 {
 	font-size: 20px;
-	margin-left = 30px;
+	margin-left: 30px;
 	color: #222;
 }
 #headerText.text3 {
 	font-size: 30px;
-	margin-left = 40px;
+	margin-left: 40px;
 	color: #333;
 }
 

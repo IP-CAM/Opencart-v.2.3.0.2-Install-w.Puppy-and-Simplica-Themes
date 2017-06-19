@@ -42,6 +42,12 @@ class ControllerCommonHeader extends Controller {
 		} else {
 			$data['logo'] = '';
 		}
+		//$data['logo1'] = $server . 'image/' . $this->config->get('config_logo');
+		//$data['logo2'] = $server . 'image/' . $this->config->get('config_logo');
+		//$data['logo3'] = $server . 'image/' . $this->config->get('config_logo');
+		$data['logo1'] = $server . 'catalog/view/theme/default/image/logo1.png';
+		$data['logo2'] = $server . 'catalog/view/theme/default/image/logo2.png';
+		$data['logo3'] = $server . 'catalog/view/theme/default/image/logo3.png';
 
 		$this->load->language('common/header');
 

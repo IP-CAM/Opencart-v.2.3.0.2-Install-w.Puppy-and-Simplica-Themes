@@ -23,6 +23,7 @@
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+<!--    <link href="catalog/view/theme/default/stylesheet/my.css" rel="stylesheet">-->
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
@@ -67,11 +68,35 @@
     </div>
   </div>
 </nav>
+<header>
+<div id="header">
+	<div id="logo1">
+	<img src="<?php echo $logo1; ?>"\>
+	</div>
+	<div id="logo2">
+	<img src="<?php echo $logo2; ?>"\>		
+	</div>
+	<div id="text">
+	<?php echo $headerText; ?>
+	</div>
+	<div id="logo3">
+	<img src="<?php echo $logo3; ?>"\>
+	</div>
+	 <div id="search">
+	 <?php echo $search; ?>
+     </div>
+</div>
+</header>
 -->
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-2">
+	  	<div id="logo1">
+		<img src="
+		<?php echo $logo1; ?>" \>
+		</div>
+	  <!--
         <div id="logo">
           <?php if ($logo) { ?>
           <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
@@ -79,10 +104,27 @@
           <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
           <?php } ?>
         </div>
+		-->
       </div>
+	  <div class="col-sm-2">
+		<div id="logo2">
+		<img src="<?php echo $logo2; ?>" height = "100%"\>
+		</div>
+	  </div>
 	
     <!--  <div class="col-sm-3"><?php echo $cart; ?></div> -->
-	<div class="col-sm-5"><?php echo $headerText; ?></div>
+	<div class="col-sm-3">
+        <div id="">
+            <?php
+             echo $headerText;
+            ?>
+        </div>
+    </div>
+	<div class="col-sm-2">
+        <div id="logo3">
+		<img src="<?php echo $logo3; ?>" height="100%"\>
+		</div>
+    </div>
 	  <div class="col-sm-3"><?php echo $search; ?>
       </div>
     </div>

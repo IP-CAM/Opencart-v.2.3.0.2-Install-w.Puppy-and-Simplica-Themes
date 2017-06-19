@@ -1,4 +1,4 @@
-<div>
+<div id ="pos">
 	<div id="pos1">
 	<?php echo $text_pos1;?>
 	</div>
