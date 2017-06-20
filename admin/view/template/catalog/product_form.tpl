@@ -110,6 +110,36 @@
                   <input type="text" name="sku" value="<?php echo $sku; ?>" placeholder="<?php echo $entry_sku; ?>" id="input-sku" class="form-control" />
                 </div>
               </div>
+
+              <!--TestModification-->
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-date-of-birth"><?php echo $entry_date_of_birth; ?></label>
+                <div class="col-sm-3">
+                  <div class="input-group date">
+                    <input type="text" name="date_of_birth" value="2000-01-01" placeholder="2000-01-01" data-date-format="YYYY-MM-DD" id="input-date-of-birth" class="form-control" />
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><i class="fa fa-calendar"></i></button>
+                    </span></div>
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-color"><?php echo $entry_color; ?></label>
+                <div class="col-sm-10">
+                  <input type="text" name="color" value="<?php echo $location; ?>" placeholder="<?php echo $entry_color; ?>" id="input-color" class="form-control" />
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-breed"><?php echo $entry_breed; ?></label>
+                <div class="col-sm-10">
+                  <input type="text" name="breed" value="<?php echo $location; ?>" placeholder="<?php echo $entry_breed; ?>" id="input-breed" class="form-control" />
+                </div>
+              </div>
+              <!--End Of Test Modification-->
+
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-upc"><span data-toggle="tooltip" title="<?php echo $help_upc; ?>"><?php echo $entry_upc; ?></span></label>
                 <div class="col-sm-10">
@@ -152,6 +182,7 @@
                   <input type="text" name="price" value="<?php echo $price; ?>" placeholder="<?php echo $entry_price; ?>" id="input-price" class="form-control" />
                 </div>
               </div>
+
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-tax-class"><?php echo $entry_tax_class; ?></label>
                 <div class="col-sm-10">

@@ -613,6 +613,10 @@ class ControllerCatalogProduct extends Controller {
 		$data['entry_reward'] = $this->language->get('entry_reward');
 		$data['entry_layout'] = $this->language->get('entry_layout');
 		$data['entry_recurring'] = $this->language->get('entry_recurring');
+        $data['entry_date_of_birth'] = $this->language->get('entry_date_of_birth');
+        $data['entry_color'] = $this->language->get('entry_color');
+        $data['entry_breed'] = $this->language->get('entry_breed');
+
 
 		$data['help_keyword'] = $this->language->get('help_keyword');
 		$data['help_sku'] = $this->language->get('help_sku');

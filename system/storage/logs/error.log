@@ -306,3 +306,36 @@
 2017-06-19 12:38:50 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
 2017-06-19 12:38:50 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
 2017-06-19 12:38:50 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 12:45:13 - PHP Notice:  Undefined variable: entry_date_of_birth in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 116
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
+2017-06-20 15:00:57 - PHP Warning:  DB\MySQLi::__destruct(): Couldn't fetch mysqli in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 62
