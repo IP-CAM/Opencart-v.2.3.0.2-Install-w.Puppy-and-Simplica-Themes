@@ -861,6 +861,32 @@ class ControllerCatalogProduct extends Controller {
 			$data['price'] = '';
 		}
 
+        if (isset($this->request->post['breed'])) {
+            $data['breed'] = $this->request->post['breed'];
+        } elseif (!empty($product_info)) {
+            $data['breed'] = $product_info['breed'];
+        } else {
+            $data['breed'] = '';
+        }
+
+        if (isset($this->request->post['color'])) {
+            $data['color'] = $this->request->post['color'];
+        } elseif (!empty($product_info)) {
+            $data['color'] = $product_info['color'];
+        } else {
+            $data['color'] = '';
+        }
+
+        if (isset($this->request->post['date_of_birth'])) {
+            $data['date_of_birth'] = $this->request->post['date_of_birth'];
+        } elseif (!empty($product_info)) {
+            $data['date_of_birth'] = $product_info['date_of_birth'];
+        } else {
+            $data['date_of_birth'] = '';
+        }
+
+
+
 		$this->load->model('catalog/recurring');
 
 		$data['recurrings'] = $this->model_catalog_recurring->getRecurrings();
@@ -1458,6 +1484,7 @@ class ControllerCatalogProduct extends Controller {
 					'model'      => $result['model'],
 					'option'     => $option_data,
 					'price'      => $result['price']
+
 				);
 			}
 		}

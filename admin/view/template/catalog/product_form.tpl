@@ -116,7 +116,7 @@
                 <label class="col-sm-2 control-label" for="input-date-of-birth"><?php echo $entry_date_of_birth; ?></label>
                 <div class="col-sm-3">
                   <div class="input-group date">
-                    <input type="text" name="date_of_birth" value="2000-01-01" placeholder="2000-01-01" data-date-format="YYYY-MM-DD" id="input-date-of-birth" class="form-control" />
+                    <input type="text" name="date_of_birth" value="<?php echo $date_of_birth; ?>" placeholder="2000-01-01" data-date-format="YYYY-MM-DD" id="input-date-of-birth" class="form-control" />
                     <span class="input-group-btn">
                     <button class="btn btn-default" type="button"><i class="fa fa-calendar"></i></button>
                     </span></div>
@@ -127,7 +127,7 @@
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-color"><?php echo $entry_color; ?></label>
                 <div class="col-sm-10">
-                  <input type="text" name="color" value="<?php echo $location; ?>" placeholder="<?php echo $entry_color; ?>" id="input-color" class="form-control" />
+                  <input type="text" name="color" value="<?php echo $color; ?>" placeholder="<?php echo $entry_color; ?>" id="input-color" class="form-control" />
                 </div>
               </div>
 
@@ -135,7 +135,7 @@
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-breed"><?php echo $entry_breed; ?></label>
                 <div class="col-sm-10">
-                  <input type="text" name="breed" value="<?php echo $location; ?>" placeholder="<?php echo $entry_breed; ?>" id="input-breed" class="form-control" />
+                  <input type="text" name="breed" value="<?php echo $breed; ?>" placeholder="<?php echo $entry_breed; ?>" id="input-breed" class="form-control" />
                 </div>
               </div>
               <!--End Of Test Modification-->
