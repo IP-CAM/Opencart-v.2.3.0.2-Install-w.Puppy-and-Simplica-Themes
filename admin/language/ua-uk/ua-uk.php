@@ -26,7 +26,7 @@ $_['text_loading']                  = 'Завантаження...';
 $_['text_no_results']               = 'Немає результатів!';
 $_['text_confirm']                  = 'Ви впевнені?';
 $_['text_home']                     = 'Головна';
-
+$_['text_passport']                 = 'Паспорт';
 // Button
 $_['button_add']               		= 'Додати новий';
 $_['button_delete']                 = 'Видалити';

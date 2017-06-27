@@ -49,7 +49,10 @@ class ModelCatalogProduct extends Model {
 				'status'           => $query->row['status'],
 				'date_added'       => $query->row['date_added'],
 				'date_modified'    => $query->row['date_modified'],
-				'viewed'           => $query->row['viewed']
+				'viewed'           => $query->row['viewed'],
+                'color'            => $query->row['color'],
+                'breed'            => $query->row['breed'],
+                'date_of_birth'    => $query->row['date_of_birth']
 			);
 		} else {
 			return false;
@@ -138,6 +141,9 @@ class ModelCatalogProduct extends Model {
 
 			if (!empty($data['filter_name'])) {
 				$sql .= " OR LCASE(p.model) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+                $sql .= " OR LCASE(p.color) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+                $sql .= " OR LCASE(p.date_of_birth) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+                $sql .= " OR LCASE(p.breed) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.sku) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.upc) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.ean) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
@@ -157,7 +163,10 @@ class ModelCatalogProduct extends Model {
 
 		$sort_data = array(
 			'pd.name',
+			'p.color',
 			'p.model',
+			'p.breed',
+			'p.date_of_birth',
 			'p.quantity',
 			'p.price',
 			'rating',
@@ -166,7 +175,8 @@ class ModelCatalogProduct extends Model {
 		);
 
 		if (isset($data['sort']) && in_array($data['sort'], $sort_data)) {
-			if ($data['sort'] == 'pd.name' || $data['sort'] == 'p.model') {
+		    //add || $data['sort'] == 'pd.color'
+			if ($data['sort'] == 'pd.name' || $data['sort'] == 'p.model'|| $data['sort'] == 'p.color'|| $data['sort'] == 'p.breed'|| $data['sort'] == 'p.date_of_birth') {
 				$sql .= " ORDER BY LCASE(" . $data['sort'] . ")";
 			} elseif ($data['sort'] == 'p.price') {
 				$sql .= " ORDER BY (CASE WHEN special IS NOT NULL THEN special WHEN discount IS NOT NULL THEN discount ELSE p.price END)";
@@ -178,10 +188,10 @@ class ModelCatalogProduct extends Model {
 		}
 
 		if (isset($data['order']) && ($data['order'] == 'DESC')) {
-			$sql .= " DESC, LCASE(pd.name) DESC";
-		} else {
-			$sql .= " ASC, LCASE(pd.name) ASC";
-		}
+            $sql .= " DESC, LCASE(pd.name) DESC";
+        } else {
+            $sql .= " ASC, LCASE(pd.name) ASC";
+        }
 
 		if (isset($data['start']) || isset($data['limit'])) {
 			if ($data['start'] < 0) {
@@ -212,13 +222,16 @@ class ModelCatalogProduct extends Model {
 		$sort_data = array(
 			'pd.name',
 			'p.model',
+			'p.breed',
+			'p.color',
 			'ps.price',
 			'rating',
-			'p.sort_order'
+			'p.sort_order',
+            'p.date_of_birth'
 		);
 
 		if (isset($data['sort']) && in_array($data['sort'], $sort_data)) {
-			if ($data['sort'] == 'pd.name' || $data['sort'] == 'p.model') {
+			if ($data['sort'] == 'pd.name' || $data['sort'] == 'p.model'|| $data['sort'] == 'p.color'|| $data['sort'] == 'p.breed'||$data['sort'] == 'p.date_of_birth') {
 				$sql .= " ORDER BY LCASE(" . $data['sort'] . ")";
 			} else {
 				$sql .= " ORDER BY " . $data['sort'];
@@ -495,12 +508,15 @@ class ModelCatalogProduct extends Model {
 
 			if (!empty($data['filter_name'])) {
 				$sql .= " OR LCASE(p.model) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+                $sql .= " OR LCASE(p.breed) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+                $sql .= " OR LCASE(p.color) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.sku) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.upc) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.ean) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.jan) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.isbn) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 				$sql .= " OR LCASE(p.mpn) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+                $sql .= " OR LCASE(p.date_of_birth) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
 			}
 
 			$sql .= ")";

@@ -373,3 +373,170 @@
 2017-06-21 11:20:49 - PHP Warning:  DB\MySQLi::query(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
 2017-06-21 11:20:49 - PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli_result in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
 2017-06-21 11:20:49 - PHP Warning:  DB\MySQLi::query(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-22 9:40:48 - PHP Notice:  Use of undefined constant HHH - assumed 'HHH' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:40:48 - PHP Notice:  Use of undefined constant HHH - assumed 'HHH' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:40:48 - PHP Notice:  Use of undefined constant HHH - assumed 'HHH' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:40:48 - PHP Notice:  Use of undefined constant HHH - assumed 'HHH' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:40:48 - PHP Notice:  Use of undefined constant HHH - assumed 'HHH' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:40:48 - PHP Notice:  Use of undefined constant HHH - assumed 'HHH' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:40:48 - PHP Notice:  Use of undefined constant HHH - assumed 'HHH' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:40:48 - PHP Notice:  Use of undefined constant HHH - assumed 'HHH' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:41:17 - PHP Notice:  Use of undefined constant tttt - assumed 'tttt' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:41:17 - PHP Notice:  Use of undefined constant tttt - assumed 'tttt' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:41:17 - PHP Notice:  Use of undefined constant tttt - assumed 'tttt' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:41:17 - PHP Notice:  Use of undefined constant tttt - assumed 'tttt' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:41:17 - PHP Notice:  Use of undefined constant tttt - assumed 'tttt' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:41:17 - PHP Notice:  Use of undefined constant tttt - assumed 'tttt' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:41:17 - PHP Notice:  Use of undefined constant tttt - assumed 'tttt' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 9:41:17 - PHP Notice:  Use of undefined constant tttt - assumed 'tttt' in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 76
+2017-06-22 11:19:25 - PHP Notice:  Undefined variable: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\product.tpl on line 152
+2017-06-22 11:19:31 - PHP Notice:  Undefined variable: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\product.tpl on line 152
+2017-06-22 11:19:37 - PHP Notice:  Undefined variable: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\product.tpl on line 152
+2017-06-22 11:19:52 - PHP Notice:  Undefined variable: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\product.tpl on line 152
+2017-06-22 11:19:57 - PHP Notice:  Undefined variable: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\product.tpl on line 152
+2017-06-22 11:25:30 - PHP Notice:  Undefined index: breed in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:25:30 - PHP Notice:  Undefined index: breed in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:25:49 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:25:49 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:36:36 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:36:36 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:36:42 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:36:42 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:36:45 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:36:45 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:36:53 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:36:53 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:01 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:01 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:04 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:04 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:09 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:09 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:11 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:11 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:14 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:14 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:18 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:37:18 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 117
+2017-06-22 11:45:00 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 118
+2017-06-22 11:45:00 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 118
+2017-06-22 11:47:20 - PHP Notice:  Undefined variable: text_color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 119
+2017-06-22 11:47:20 - PHP Notice:  Undefined variable: text_color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 119
+2017-06-22 11:50:00 - PHP Notice:  Undefined variable: text_color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 119
+2017-06-22 11:50:00 - PHP Notice:  Undefined variable: text_color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 119
+2017-06-22 11:52:16 - PHP Notice:  Undefined variable: text_color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 119
+2017-06-22 11:52:16 - PHP Notice:  Undefined variable: text_color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 119
+2017-06-22 11:58:55 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 119
+2017-06-22 11:58:55 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 119
+2017-06-22 11:59:23 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 118
+2017-06-22 11:59:23 - PHP Notice:  Undefined index: color in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 118
+2017-06-22 13:25:31 - PHP Notice:  Undefined variable: breed in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\product.tpl on line 141
+2017-06-22 13:25:42 - PHP Notice:  Undefined variable: breed in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\product.tpl on line 141
+2017-06-26 8:51:03 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 174
+2017-06-26 8:51:40 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 174
+2017-06-26 8:51:40 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 425
+2017-06-26 8:51:45 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 174
+2017-06-26 8:51:45 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 425
+2017-06-26 8:55:32 - PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli_result in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-26 8:55:32 - PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli_result in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-26 8:55:32 - PHP Warning:  DB\MySQLi::query(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-26 8:55:32 - PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli_result in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-26 8:55:32 - PHP Warning:  DB\MySQLi::query(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-26 8:56:19 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 174
+2017-06-26 8:56:19 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 425
+2017-06-26 8:57:32 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 174
+2017-06-26 8:57:32 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 425
+2017-06-26 8:58:08 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 174
+2017-06-26 8:58:08 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 425
+2017-06-26 8:58:19 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 174
+2017-06-26 9:00:44 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 425
+2017-06-26 12:32:02 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:32:02 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:32:02 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:32:08 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:32:08 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:32:08 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:32:09 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:32:09 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:32:09 - PHP Notice:  Undefined index: text_date_of_birth in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\category.tpl on line 126
+2017-06-26 12:54:32 - PHP Warning:  date_diff() expects parameter 1 to be DateTimeInterface, string given in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 221
+2017-06-26 12:56:34 - PHP Warning:  date_diff() expects parameter 1 to be DateTimeInterface, integer given in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 221
+2017-06-26 13:01:38 - PHP Warning:  date_diff() expects parameter 1 to be DateTimeInterface, boolean given in C:\xampp\htdocs\my-opencart\catalog\controller\product\category.php on line 222
+2017-06-27 8:28:16 - PHP Notice:  Undefined variable: entry_ in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 8:42:52 - PHP Notice:  Undefined variable: text_passport in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 8:46:13 - PHP Notice:  Undefined variable: text_passportr in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 9:02:01 - PHP Notice:  Undefined variable: text_passportr in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 9:05:39 - PHP Notice:  Undefined variable: entry_passport in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 9:06:22 - PHP Notice:  Undefined variable: entry_passport in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 9:07:09 - PHP Notice:  Undefined variable: entry_passport in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 9:08:58 - PHP Notice:  Undefined variable: entry_passport in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 9:12:46 - PHP Notice:  Undefined variable: entry_passport in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 9:15:35 - PHP Notice:  Undefined variable: entry_passport in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 885
+2017-06-27 9:29:55 - PHP Notice:  Undefined variable: product_image in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 892
+2017-06-27 9:29:55 - PHP Notice:  Undefined variable: product_image in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 892
+2017-06-27 9:29:55 - PHP Notice:  Undefined variable: product_image in C:\xampp\htdocs\my-opencart\admin\view\template\catalog\product_form.tpl on line 893
+2017-06-27 14:55:14 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 23
+2017-06-27 15:00:02 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 23
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: analytics in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 37
+2017-06-27 15:02:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 37
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: logo1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 74
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: logo2 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 77
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 80
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: logo3 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 83
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: logo1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 96
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: logo2 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 110
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 118
+2017-06-27 15:02:01 - PHP Notice:  Undefined variable: logo3 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 124
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: analytics in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 37
+2017-06-27 15:03:37 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 37
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: logo1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 74
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: logo2 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 77
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 80
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: logo3 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 83
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: logo1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 96
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: logo2 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 110
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 118
+2017-06-27 15:03:37 - PHP Notice:  Undefined variable: logo3 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 124
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: analytics in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 37
+2017-06-27 15:03:40 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 37
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: logo1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 74
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: logo2 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 77
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 80
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: logo3 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 83
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: logo1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 96
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: logo2 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 110
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 118
+2017-06-27 15:03:40 - PHP Notice:  Undefined variable: logo3 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\default\template\common\header.tpl on line 124
+2017-06-27 15:09:05 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 23
+2017-06-27 15:14:41 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 23
+2017-06-27 15:14:42 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 23
+2017-06-27 15:14:48 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 23
+2017-06-27 15:19:59 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 23
+2017-06-27 15:25:51 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 22
+2017-06-27 15:30:01 - PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli_result in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-27 15:30:01 - PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli_result in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-27 15:30:01 - PHP Warning:  DB\MySQLi::query(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-27 15:30:01 - PHP Warning:  DB\MySQLi::query(): Couldn't fetch mysqli_result in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-27 15:30:01 - PHP Warning:  DB\MySQLi::query(): Property access is not allowed yet in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 35
+2017-06-27 15:30:27 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 22
+2017-06-27 15:31:00 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 22
+2017-06-27 15:31:20 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/my-opencart/catalog/view/theme/default/template/default/template/common/header.tpl! in C:\xampp\htdocs\my-opencart\system\storage\modification\system\library\template\php.php on line 22
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: analytics in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 37
+2017-06-27 15:42:58 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 37
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: logo1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 74
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: logo2 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 77
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 80
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: logo3 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 83
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: logo1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 96
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: logo2 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 110
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 118
+2017-06-27 15:42:58 - PHP Notice:  Undefined variable: logo3 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 124
+2017-06-27 15:46:55 - PHP Notice:  Undefined variable: analytics in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 37
+2017-06-27 15:46:55 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 37
+2017-06-27 15:46:55 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 80
+2017-06-27 15:46:55 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 118
+2017-06-27 15:51:12 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 80
+2017-06-27 15:51:12 - PHP Notice:  Undefined variable: headerText in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\common\header.tpl on line 118
+2017-06-27 16:16:17 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\system\storage\modification\system\engine\loader.php on line 53
+2017-06-27 16:18:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\system\storage\modification\system\engine\loader.php on line 53
+2017-06-27 16:18:14 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\system\storage\modification\system\engine\loader.php on line 53

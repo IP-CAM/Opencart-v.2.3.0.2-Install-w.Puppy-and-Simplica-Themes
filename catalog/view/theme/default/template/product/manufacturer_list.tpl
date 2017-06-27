@@ -22,7 +22,7 @@
         <?php } ?>
       </p>
       <?php foreach ($categories as $category) { ?>
-      <h2 id="<?php echo $category['name']; ?>"><?php echo $category['name']; ?></h2>
+      <h2 id="<?php echo $category['name']; ?>"><?php echo $category['name']"; ?></h2>
       <?php if ($category['manufacturer']) { ?>
       <?php foreach (array_chunk($category['manufacturer'], 4) as $manufacturers) { ?>
       <div class="row">

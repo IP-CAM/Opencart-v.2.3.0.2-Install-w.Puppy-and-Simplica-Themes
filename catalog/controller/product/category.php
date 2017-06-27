@@ -18,7 +18,7 @@ class ControllerProductCategory extends Controller {
 		if (isset($this->request->get['sort'])) {
 			$sort = $this->request->get['sort'];
 		} else {
-			$sort = 'p.sort_order';
+			$sort = 'pd.sort_order';
 		}
 
 		if (isset($this->request->get['order'])) {
@@ -61,6 +61,8 @@ class ControllerProductCategory extends Controller {
 				$url .= '&limit=' . $this->request->get['limit'];
 			}
 
+
+
 			$path = '';
 
 			$parts = explode('_', (string)$this->request->get['path']);
@@ -73,7 +75,6 @@ class ControllerProductCategory extends Controller {
 				} else {
 					$path .= '_' . (int)$path_id;
 				}
-
 				$category_info = $this->model_catalog_category->getCategory($path_id);
 
 				if ($category_info) {
@@ -103,10 +104,17 @@ class ControllerProductCategory extends Controller {
 			$data['text_model'] = $this->language->get('text_model');
 			$data['text_price'] = $this->language->get('text_price');
 			$data['text_tax'] = $this->language->get('text_tax');
+            $data['text_color'] = $this->language->get('text_color');
+            $data['text_breed'] = $this->language->get('text_breed');
+            $data['text_date_of_birth'] = $this->language->get('text_date_of_birth');
+            $data['text_age'] = $this->language->get('text_age');
 			$data['text_points'] = $this->language->get('text_points');
 			$data['text_compare'] = sprintf($this->language->get('text_compare'), (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0));
 			$data['text_sort'] = $this->language->get('text_sort');
 			$data['text_limit'] = $this->language->get('text_limit');
+            $data['text_year'] = $this->language->get('text_year');
+            $data['text_years'] = $this->language->get('text_years');
+            $data['text_passport'] = $this->language->get('text_passport');
 
 			$data['button_cart'] = $this->language->get('button_cart');
 			$data['button_wishlist'] = $this->language->get('button_wishlist');
@@ -114,6 +122,8 @@ class ControllerProductCategory extends Controller {
 			$data['button_continue'] = $this->language->get('button_continue');
 			$data['button_list'] = $this->language->get('button_list');
 			$data['button_grid'] = $this->language->get('button_grid');
+
+
 
 			// Set the last category breadcrumb
 			$data['breadcrumbs'][] = array(
@@ -210,6 +220,16 @@ class ControllerProductCategory extends Controller {
 					$rating = false;
 				}
 
+                $color = $result['color'];
+                $breed = $result['breed'];
+                $date_of_birth = $result['date_of_birth'];
+                $age = (strtotime(date("Y-m-d"))-strtotime($date_of_birth))/31536000;
+                $age = round($age, 0, PHP_ROUND_HALF_EVEN);
+                if($age>1)$age.=' '.$data['text_years'];
+                else $age.=' '.$data['text_year'];
+
+
+
 				$data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
@@ -220,8 +240,12 @@ class ControllerProductCategory extends Controller {
 					'tax'         => $tax,
 					'minimum'     => $result['minimum'] > 0 ? $result['minimum'] : 1,
 					'rating'      => $result['rating'],
-					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url)
-				);
+					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url),
+				    'color'       => $color,
+                    'breed'       => $breed,
+                    'date_of_birth'=>$date_of_birth,
+                    'age'=>$age
+                );
 			}
 
 			$url = '';
@@ -241,7 +265,7 @@ class ControllerProductCategory extends Controller {
 				'value' => 'p.sort_order-ASC',
 				'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.sort_order&order=ASC' . $url)
 			);
-
+            /*
 			$data['sorts'][] = array(
 				'text'  => $this->language->get('text_name_asc'),
 				'value' => 'pd.name-ASC',
@@ -291,8 +315,59 @@ class ControllerProductCategory extends Controller {
 				'value' => 'p.model-DESC',
 				'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.model&order=DESC' . $url)
 			);
+*/
 
-			$url = '';
+            $data['sorts'][] = array(
+                'text'  => $this->language->get('text_date_of_birth_asc'),
+                'value' => 'p.date_of_birth-ASC',
+                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.date_of_birth&order=ASC' . $url)
+            );
+
+            $data['sorts'][] = array(
+                'text'  => $this->language->get('text_date_of_birth_desc'),
+                'value' => 'p.date_of_birth-DESC',
+                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.date_of_birth&order=DESC' . $url)
+            );
+
+            $data['sorts'][] = array(
+                'text'  => $this->language->get('text_color_asc'),
+                'value' => 'p.color-ASC',
+                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.color&order=ASC' . $url)
+            );
+
+            $data['sorts'][] = array(
+                'text'  => $this->language->get('text_color_desc'),
+                'value' => 'p.color-DESC',
+                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.color&order=DESC' . $url)
+            );
+
+            $data['sorts'][] = array(
+                'text'  => $this->language->get('text_breed_desc'),
+                'value' => 'p.breed-DESC',
+                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.breed&order=ASC' . $url)
+            );
+
+            $data['sorts'][] = array(
+                'text'  => $this->language->get('text_breed_asc'),
+                'value' => 'p.breed-ASC',
+                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.breed&order=DESC' . $url)
+            );
+
+            $data['sorts'][] = array(
+                'text'  => $this->language->get('text_price_asc'),
+                'value' => 'pd.price-ASC',
+                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=ASC' . $url)
+            );
+
+            $data['sorts'][] = array(
+                'text'  => $this->language->get('text_price_desc'),
+                'value' => 'pd.price-DESC',
+                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=DESC' . $url)
+            );
+
+
+
+            $url = '';
 
 			if (isset($this->request->get['filter'])) {
 				$url .= '&filter=' . $this->request->get['filter'];

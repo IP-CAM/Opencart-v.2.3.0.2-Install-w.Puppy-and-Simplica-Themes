@@ -93,8 +93,7 @@
     <div class="row">
       <div class="col-sm-2">
 	  	<div id="logo1">
-		<img src="
-		<?php echo $logo1; ?>" \>
+		<img src="<?php echo $logo1; ?>" \>
 		</div>
 	  <!--
         <div id="logo">

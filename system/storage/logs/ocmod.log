@@ -14210,3 +14210,1623 @@ FILE: catalog/view/theme/simplica/template/common/header.tpl
 CODE: <ul class="nav navbar-nav">
 LINE: 93
 ----------------------------------------------------------------
+2017-06-22 8:54:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 8:54:54 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 8:58:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:00:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:04:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:09:11 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:11:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:11:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:12:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:18:44 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:20:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:25:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:26:50 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:32:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:33:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-22 9:35:26 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 139
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-27 13:47:10 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+MOD: Webcraft
+
+FILE: catalog/controller/common/header.php
+CODE: $data['language'] = $this->load->controller('common/language');
+LINE: 144
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 138
+
+FILE: catalog/view/theme/simplica/template/common/header.tpl
+CODE: <ul class="nav navbar-nav">
+LINE: 93
+----------------------------------------------------------------
+2017-06-27 13:47:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------
+2017-06-27 14:40:20 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/view/theme/simplica/template/common/cart.tpl
+CODE: <div id="cart" class="btn-group btn-block">
+LINE: 0
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/simplica/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+LINE: 42
+----------------------------------------------------------------

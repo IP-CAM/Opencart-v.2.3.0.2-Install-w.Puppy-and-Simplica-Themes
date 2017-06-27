@@ -38,9 +38,16 @@
             <?php if ($attribute_groups) { ?>
             <li><a href="#tab-specification" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
             <?php } ?>
+
+            <li><a href="#tab-passport" data-toggle="tab"><?php echo $tab_passport; ?></a></li>
+
+
             <?php if ($review_status) { ?>
             <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
+
+
+
           </ul>
           <div class="tab-content">
             <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
@@ -65,6 +72,9 @@
               </table>
             </div>
             <?php } ?>
+            <div class="tab-pane" id="tab-passport">
+              Passport
+            </div>
             <?php if ($review_status) { ?>
             <div class="tab-pane" id="tab-review">
               <form class="form-horizontal" id="form-review">
@@ -137,9 +147,6 @@
           <?php if ($price) { ?>
           <ul class="list-unstyled">
             <?php if (!$special) { ?>
-            <li>
-              <h2><?php echo $price; ?></h2>
-            </li>
             <?php } else { ?>
             <li><span style="text-decoration: line-through;"><?php echo $price; ?></span></li>
             <li>
@@ -322,6 +329,7 @@
       <?php if ($products) { ?>
       <h3><?php echo $text_related; ?></h3>
       <div class="row">
+        <h1>Hello</h1>
         <?php $i = 0; ?>
         <?php foreach ($products as $product) { ?>
         <?php if ($column_left && $column_right) { ?>

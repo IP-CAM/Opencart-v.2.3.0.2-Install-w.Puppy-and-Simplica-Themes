@@ -73,7 +73,8 @@
               <?php if ($sorts['value'] == $sort . '-' . $order) { ?>
               <option value="<?php echo $sorts['href']; ?>" selected="selected"><?php echo $sorts['text']; ?></option>
               <?php } else { ?>
-              <option value="<?php echo $sorts['href']; ?>"><?php echo $sorts['text']; ?></option>
+              <!-- TEST -->
+              <option value="<?php echo $sorts['href']; ?>"><?php echo $sorts['text'];?></option>
               <?php } ?>
               <?php } ?>
             </select>
@@ -113,6 +114,23 @@
                   <?php if ($product['tax']) { ?>
                   <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
                   <?php } ?>
+
+                  <?php if ($product['color']) { ?>
+                  <span class="rating"><?php echo $text_color; ?> <?php echo $product['color']; ?></span>
+                  <?php } ?>
+                  <br>
+                  <?php if ($product['breed']) { ?>
+                  <span class="rating"><?php echo $text_breed; ?> <?php echo $product['breed']; ?></span>
+                  <?php } ?>
+                  <br>
+                  <?php if ($product['date_of_birth']) { ?>
+                  <span class="rating"><?php echo $text_date_of_birth; ?> <?php echo $product['date_of_birth']; ?></span>
+                  <?php } ?>
+                  <br>
+                  <?php if ($product['date_of_birth']) { ?>
+                  <span class="rating"><?php echo $text_age; ?> <?php echo $product['age']; ?></span>
+                  <?php } ?>
+
                 </p>
                 <?php } ?>
                 <?php if ($product['rating']) { ?>
