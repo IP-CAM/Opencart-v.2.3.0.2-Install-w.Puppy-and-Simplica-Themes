@@ -63,12 +63,12 @@ class ModelCatalogsmenu extends Model {
 			$this->db->query("DELETE FROM " . DB_PREFIX . "smenu_links WHERE `smenu_items_id` = '" . (int)$smenu_item_id . "';");
 		}
 
-	public function getsmenu($smenu_id) {			
+	public function getSmenu($smenu_id) {
 		$query = $this->db->query("SELECT DISTINCT * FROM " . DB_PREFIX . "smenu WHERE `smenu_id` = '" . (int)$smenu_id . "';");
 		return $query->row;
 	}
 
-	public function getsmenus($data = array()) {
+	public function getSmenus($data = array()) {
 		$sql = "SELECT * FROM " . DB_PREFIX . "smenu";
 
 		$sort_data = array(

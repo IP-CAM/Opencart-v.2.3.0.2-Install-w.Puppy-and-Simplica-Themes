@@ -14,6 +14,7 @@ final class PHP {
 			extract($this->data);
 
 			ob_start();
+
 			require(modification($file));
 
 			return ob_get_clean();

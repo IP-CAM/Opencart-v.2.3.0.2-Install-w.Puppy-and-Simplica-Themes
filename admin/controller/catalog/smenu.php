@@ -242,7 +242,7 @@ class ControllerCatalogsmenu extends Controller {
 
 		$smenu_total = $this->model_catalog_smenu->getTotalsmenus();
 
-		$results = $this->model_catalog_smenu->getsmenus($filter_data);
+		$results = $this->model_catalog_smenu->getSmenus($filter_data);
 
 		foreach ($results as $result) {
 			$action = array();
@@ -410,7 +410,7 @@ class ControllerCatalogsmenu extends Controller {
 		$data['tree'] = array();
 		$data['last'] = $this->model_catalog_smenu->getLastsmenu();
 		if (isset($this->request->get['smenu_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
-			$smenu_info = $this->model_catalog_smenu->getsmenu($this->request->get['smenu_id']);
+			$smenu_info = $this->model_catalog_smenu->getSmenu($this->request->get['smenu_id']);
 			$root_items = $this->model_catalog_smenu->getItems($this->request->get['smenu_id']);
 			foreach ($root_items as $items) {
 				$children_data=false;

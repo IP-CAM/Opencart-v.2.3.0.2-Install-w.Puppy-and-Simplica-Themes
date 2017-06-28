@@ -7,14 +7,14 @@ class ControllerModulesmenu extends Controller {
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
-		$this->load->model('extension/module');
+		$this->load->model('extension/extension');
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 			if (!isset($this->request->get['module_id'])) {
 				$this->model_extension_module->addModule('smenu', $this->request->post);
 			} else {
 				$this->model_extension_module->editModule($this->request->get['module_id'], $this->request->post);
 			}
-			$this->response->redirect($this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL'));
+			$this->response->redirect($this->url->link('extension/extension', 'token=' . $this->session->data['token'], 'SSL'));
 		}
 
 		$data['heading_title'] = $this->language->get('heading_title');
@@ -44,20 +44,20 @@ class ControllerModulesmenu extends Controller {
 
 		$data['breadcrumbs'][] = array(
 			'text'      => $this->language->get('text_module'),
-			'href'      => $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL')
+			'href'      => $this->url->link('extension/extension', 'token=' . $this->session->data['token'], 'SSL')
 		);
 
 		$data['breadcrumbs'][] = array(
 			'text'      => $this->language->get('heading_title'),
-			'href'      => $this->url->link('module/smenu', 'token=' . $this->session->data['token'], 'SSL')
+			'href'      => $this->url->link('extension/module/smenu', 'token=' . $this->session->data['token'], 'SSL')
 		);
 
 		if (!isset($this->request->get['module_id'])) {
-			$data['action'] = $this->url->link('module/smenu', 'token=' . $this->session->data['token'], 'SSL');
+			$data['action'] = $this->url->link('extension/module/smenu', 'token=' . $this->session->data['token'], 'SSL');
 		} else {
-			$data['action'] = $this->url->link('module/smenu', 'token=' . $this->session->data['token'] . '&module_id=' . $this->request->get['module_id'], 'SSL');
+			$data['action'] = $this->url->link('extension/module/smenu', 'token=' . $this->session->data['token'] . '&module_id=' . $this->request->get['module_id'], 'SSL');
 		}
-		$data['cancel'] = $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL');
+		$data['cancel'] = $this->url->link('extension/extension', 'token=' . $this->session->data['token'], 'SSL');
 
 		if (isset($this->request->get['module_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
 			$module_info = $this->model_extension_module->getModule($this->request->get['module_id']);
@@ -94,7 +94,7 @@ class ControllerModulesmenu extends Controller {
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
-		$this->response->setOutput($this->load->view('module/smenu.tpl', $data));
+		$this->response->setOutput($this->load->view('extension/module/smenu.tpl', $data));
 	}
 	
 	public function install() {
@@ -131,7 +131,7 @@ class ControllerModulesmenu extends Controller {
 	}
 
 	protected function validate() {
-		if (!$this->user->hasPermission('modify', 'module/smenu')) {
+		if (!$this->user->hasPermission('modify', 'extension/module/smenu')) {
 			$this->error['warning'] = $this->language->get('error_permission');
 		}
 		if (!$this->error) {
