@@ -52,7 +52,8 @@ class ModelCatalogProduct extends Model {
 				'viewed'           => $query->row['viewed'],
                 'color'            => $query->row['color'],
                 'breed'            => $query->row['breed'],
-                'date_of_birth'    => $query->row['date_of_birth']
+                'date_of_birth'    => $query->row['date_of_birth'],
+                'age'              => date("Y") -substr($query->row['date_of_birth'],0,4)
 			);
 		} else {
 			return false;

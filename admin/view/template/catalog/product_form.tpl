@@ -878,23 +878,6 @@
                     </tr>
                   </tfoot>
                 </table>
-                <div class="table-responsive">
-                <table id="images" class="table table-striped table-bordered table-hover">
-                  <thead>
-                  <tr>
-                    <td class="text-left"><?php echo $entry_passport; ?></td>
-                  </tr>
-                  </thead>
-                <tr>
-
-                  <tr>
-                    <td class="text-left"><a href="" id="thumb-image" data-toggle="image" class="img-thumbnail"><img src="<?php echo $placeholder; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" /></a><input type="hidden" name="image" value="<?php echo $image; ?>" id="input-image" /></td>
-                  </tr>
-
-
-                </tr>
-                </table>
-                </div>
               </div>
             </div>
             <div class="tab-pane" id="tab-reward">

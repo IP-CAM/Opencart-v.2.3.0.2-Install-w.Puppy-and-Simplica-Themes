@@ -39,9 +39,6 @@
             <li><a href="#tab-specification" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
             <?php } ?>
 
-            <li><a href="#tab-passport" data-toggle="tab"><?php echo $tab_passport; ?></a></li>
-
-
             <?php if ($review_status) { ?>
             <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
@@ -72,9 +69,6 @@
               </table>
             </div>
             <?php } ?>
-            <div class="tab-pane" id="tab-passport">
-              Passport
-            </div>
             <?php if ($review_status) { ?>
             <div class="tab-pane" id="tab-review">
               <form class="form-horizontal" id="form-review">
@@ -138,7 +132,10 @@
             <?php if ($manufacturer) { ?>
             <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>
             <?php } ?>
-            <li><?php echo $text_model; ?> <?php echo $model; ?></li>
+            <!--<li><?php echo $text_model; ?> <?php echo $model; ?></li>-->
+            <li><?php echo $text_breed; ?> <?php echo $breed; ?></li>
+            <li><?php echo $text_color; ?> <?php echo $color; ?></li>
+            <li><?php echo $text_age; ?> <?php echo $age; ?></li>
             <?php if ($reward) { ?>
             <li><?php echo $text_reward; ?> <?php echo $reward; ?></li>
             <?php } ?>

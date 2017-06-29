@@ -29,3 +29,4 @@ $_['text_breed_desc'] = 'Порода (Я - А)';
 $_['text_breed_asc'] = 'Порода (А - Я)';
 $_['text_date_of_birth_asc'] = 'Вік (починаючи з низького)';
 $_['text_date_of_birth_desc'] = 'Вік (починаючи з високого)';
+$_['text_age'] = 'Вік';

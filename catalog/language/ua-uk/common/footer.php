@@ -14,4 +14,4 @@ $_['text_account'] = 'Особистий Кабінет';
 $_['text_order'] = 'Історія замовлень';
 $_['text_wishlist'] = 'Закладки';
 $_['text_newsletter'] = 'Розсилка';
-$_['text_powered']      = '<a href="https://alius.com.ua/">Разработка магазинов на Опенкарт</a> %s &copy; %s';
+$_['text_powered'] = '<a href="http://www.opencart.com">OpenCart</a> %s &copy; %s';

@@ -30,6 +30,9 @@ $_['text_week'] = 'тижня';
 $_['text_semi_month'] = 'півмісяця';
 $_['text_month'] = 'місяць';
 $_['text_year'] = 'рік';
+$_['text_breed'] = 'Порода';
+$_['text_age'] = 'Вік';
+$_['text_color'] = 'Колір';
 
 // Entry
 $_['entry_qty'] = 'Кількість';

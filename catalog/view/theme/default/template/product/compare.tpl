@@ -100,10 +100,30 @@
             <td><?php echo $product['weight']; ?></td>
             <?php } ?>
           </tr>
+         <!--
           <tr>
             <td><?php echo $text_dimension; ?></td>
             <?php foreach ($products as $product) { ?>
             <td><?php echo $product['length']; ?> x <?php echo $product['width']; ?> x <?php echo $product['height']; ?></td>
+            <?php } ?>
+          </tr>
+        -->
+          <tr>
+            <td><?php echo $text_color ; ?></td>
+            <?php foreach ($products as $product) { ?>
+            <td><?php echo $product['color']; ?> </td>
+            <?php } ?>
+          </tr>
+          <tr>
+            <td><?php echo $text_breed ; ?></td>
+            <?php foreach ($products as $product) { ?>
+            <td><?php echo $product['breed']; ?> </td>
+            <?php } ?>
+          </tr>
+          <tr>
+            <td><?php echo $text_age ; ?></td>
+            <?php foreach ($products as $product) { ?>
+            <td><?php echo $product['age']; ?> </td>
             <?php } ?>
           </tr>
         </tbody>
