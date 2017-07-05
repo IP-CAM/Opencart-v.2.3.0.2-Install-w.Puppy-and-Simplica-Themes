@@ -127,7 +127,7 @@
                   <span class="rating"><?php echo $text_date_of_birth; ?> <?php echo $product['date_of_birth']; ?></span>
                   <?php } ?>
                   <br>
-                  <?php if ($product['date_of_birth']) { ?>
+                  <?php if ($product['age']) { ?>
                   <span class="rating"><?php echo $text_age; ?> <?php echo $product['age']; ?></span>
                   <?php } ?>
 

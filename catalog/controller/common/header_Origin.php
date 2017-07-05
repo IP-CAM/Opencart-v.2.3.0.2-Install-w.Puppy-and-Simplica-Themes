@@ -129,41 +129,6 @@ class ControllerCommonHeader extends Controller {
 			}
 		}
 
-
-			$this->load->language('common/footer');
-			$this->load->model('catalog/information');
-			//information
-			$children_data = array();
-			foreach ($this->model_catalog_information->getInformations() as $result) {
-			   if (!$result['bottom']) {
-					$children_data[] = array(
-						'name' => $result['title'],
-						'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
-					);
-				}
-			}
-			if ( !empty($children_data) ) {
-				$data['categories'][] = array(
-					'name'     => $this->language->get('text_information'),
-					'children' => $children_data,
-					'column'   => 1,
-					'href'     => 'javascript:void(0);'
-				);
-			}
-			
-
-												$this->load->model('catalog/information');
-						$data['informations'] = array();
-
-		foreach ($this->model_catalog_information->getInformations() as $result) {
-			if ($result['bottom']) {
-				$data['informations'][] = array(
-					'title' => $result['title'],
-					'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
-				);
-			}
-		}
-						
 		$data['language'] = $this->load->controller('common/language');
 		$data['currency'] = $this->load->controller('common/currency');
 		$data['search'] = $this->load->controller('common/search');

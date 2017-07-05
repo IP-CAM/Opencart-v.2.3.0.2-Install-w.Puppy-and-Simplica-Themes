@@ -222,11 +222,17 @@ class ControllerProductCategory extends Controller {
 
                 $color = $result['color'];
                 $breed = $result['breed'];
-                $date_of_birth = $result['date_of_birth'];
-                $age = (strtotime(date("Y-m-d"))-strtotime($date_of_birth))/31536000;
-                $age = round($age, 0, PHP_ROUND_HALF_EVEN);
-                if($age>1)$age.=' '.$data['text_years'];
-                else $age.=' '.$data['text_year'];
+                if($result['date_of_birth']!='0000-00-00') {
+                    $age = date("Y") - substr($result['date_of_birth'], 0, 4);
+                    if($age == 0) $age = false;
+                    else if ($age == 1) $age .= ' ' . $data['text_year'];
+                    else $age .= ' ' . $data['text_years'];
+                }else
+                {
+                    $result['date_of_birth'] = false;
+                    $age = false;
+
+                }
 
 
 
@@ -243,7 +249,7 @@ class ControllerProductCategory extends Controller {
 					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url),
 				    'color'       => $color,
                     'breed'       => $breed,
-                    'date_of_birth'=>$date_of_birth,
+                    'date_of_birth'=>$result['date_of_birth'],
                     'age'=>$age
                 );
 			}

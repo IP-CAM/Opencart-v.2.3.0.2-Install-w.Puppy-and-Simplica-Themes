@@ -90,7 +90,8 @@
 </header>
 -->
 <header>
-  <div class="container">
+    <div class="container">
+  <div class="Gallery ">
     <div class="row">
       <div class="col-sm-2">
 	  	<div id="logo1">
@@ -120,7 +121,9 @@
       </div>
     </div>
   </div>
+    </div>
 </header>
+<br><br>
 <?php if ($categories) { ?>
 <div class="container">
   <nav id="menu" class="navbar">
@@ -143,14 +146,23 @@
               </ul>
               <?php } ?>
             </div>
-            <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+           <!-- <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+      -->
         </li>
         <?php } else { ?>
         <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
         <?php } ?>
         <?php } ?>
+
       </ul>
     </div>
   </nav>
 </div>
+<?php if ($homePage) { ?>
+<div class="container" id = "mainPhoto">
+    <img src="<?php echo $mainPhoto; ?>" \ width="100%">
+
+</div>
+<?php }?>
+
 <?php } ?>

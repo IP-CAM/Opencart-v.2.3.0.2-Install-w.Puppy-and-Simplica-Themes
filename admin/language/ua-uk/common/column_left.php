@@ -101,3 +101,4 @@ $_['text_paypal_search'] = 'Пошук транзакції';
 $_['text_complete_status'] = 'Замовлення завершені'; 
 $_['text_processing_status'] = 'Замовлення у процесі'; 
 $_['text_other_status'] = 'Інші замовлення';
+$_['text_menu_designer'] = 'Конструктор меню';

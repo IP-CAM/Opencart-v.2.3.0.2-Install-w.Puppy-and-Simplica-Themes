@@ -224,8 +224,8 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);	
 			}
-			*/	
-			/*	
+			*/
+			/*
 			if ($this->user->hasPermission('access', 'design/theme')) {	
 				$design[] = array(
 					'name'	   => $this->language->get('text_theme'),
@@ -241,7 +241,7 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);	
 			}
-			*/	
+			*/
 			if ($this->user->hasPermission('access', 'design/banner')) {
 				$design[] = array(
 					'name'	   => $this->language->get('text_banner'),
@@ -249,6 +249,15 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);
 			}
+			/*
+            if ($this->user->hasPermission('access', 'design/banner')) {
+                $design[] = array(
+                    'name' => $this->language->get('text_menu_designer'),
+                    'href' => $this->url->link('design/banner', 'token=' . $this->session->data['token'], true),
+                    'children' => array()
+                );
+            }
+			*/
 			
 			if ($design) {
 				$data['menus'][] = array(

@@ -277,7 +277,12 @@ class ControllerProductProduct extends Controller {
 			$data['description'] = html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8');
             $data['breed'] = $product_info['breed'];
             $data['color'] = $product_info['color'];
-            $data['age'] = $product_info['age'];
+            if($product_info['date_of_birth']!='0000-00-00') {
+                $data['age'] = date("Y") - substr($product_info['date_of_birth'], 0, 4);
+            } else
+            {
+             $data['age'] = false;
+            }
 			if ($product_info['quantity'] <= 0) {
 				$data['stock'] = $product_info['stock_status'];
 			} elseif ($this->config->get('config_stock_display')) {

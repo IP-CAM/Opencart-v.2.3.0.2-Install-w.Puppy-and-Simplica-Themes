@@ -1,21 +1,7 @@
 <?php
 class ControllerCommonHeader extends Controller {
 	public function index() {
-        $this->load->model('extension/extension');
-
-        $data['analytics'] = array();
-
-        $analytics = $this->model_extension_extension->getExtensions('analytics');
-
-        foreach ($analytics as $analytic) {
-            if ($this->config->get($analytic['code'] . '_status')) {
-                $data['analytics'][] = $this->load->controller('extension/analytics/' . $analytic['code'], $this->config->get($analytic['code'] . '_status'));
-            }
-        }
-
 		$data['title'] = $this->document->getTitle();
-
-
 
 		if ($this->request->server['HTTPS']) {
 			$server = $this->config->get('config_ssl');
@@ -78,9 +64,6 @@ class ControllerCommonHeader extends Controller {
 		$data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
-        $data['logo1'] = $server . 'catalog/view/theme/default/image/logo1.png';
-        $data['logo2'] = $server . 'catalog/view/theme/default/image/logo2.png';
-        $data['logo3'] = $server . 'catalog/view/theme/default/image/logo3.png';
 
 		$status = true;
 
@@ -168,7 +151,6 @@ class ControllerCommonHeader extends Controller {
 		$data['currency'] = $this->load->controller('common/currency');
 		$data['search'] = $this->load->controller('common/search');
 		$data['cart'] = $this->load->controller('common/cart');
-        $data['headerText'] = $this->load->controller('common/headerText');
 
 		// For page specific css
 		if (isset($this->request->get['route'])) {
@@ -190,7 +172,7 @@ class ControllerCommonHeader extends Controller {
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/header.tpl')) {
 			return $this->load->view($this->config->get('config_template') . '/template/common/header.tpl', $data);
 		} else {
-			return $this->load->view('/common/header.tpl', $data);
+			return $this->load->view('default/template/common/header.tpl', $data);
 		}
 	}
 }

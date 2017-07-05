@@ -1,9 +1,9 @@
 <?php  
-class ControllerModuleSmenu extends Controller {
+class ControllerExtensionModuleSmenu extends Controller {
 	public function index($setting) {
 		static $module = 0;	
 		
-		$this->language->load('module/smenu'); 
+		$this->language->load('extension/module/smenu');
 
 		$data['heading_title'] = $setting['name'];
 		
@@ -71,10 +71,10 @@ class ControllerModuleSmenu extends Controller {
 			);
 		}
 				
-		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/smenu.tpl')) {
-			return $this->load->view($this->config->get('config_template') . '/template/module/smenu.tpl', $data);
+		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/extension/module/smenu.tpl')) {
+			return $this->load->view($this->config->get('config_template') . '/template/extension/module/smenu.tpl', $data);
 		} else {
-			return $this->load->view('default/template/module/smenu.tpl', $data);
+			return $this->load->view('/extension/module/smenu.tpl', $data);
 		}
 	}
 }

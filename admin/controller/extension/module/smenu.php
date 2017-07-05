@@ -1,20 +1,20 @@
 <?php
-class ControllerModulesmenu extends Controller {
+class ControllerExtensionModulesmenu extends Controller {
 	private $error = array(); 
 
 	public function index() {
-		$this->load->language('module/smenu');
+		$this->load->language('extension/module/smenu');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
-		$this->load->model('extension/extension');
+		$this->load->model('extension/module');
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 			if (!isset($this->request->get['module_id'])) {
 				$this->model_extension_module->addModule('smenu', $this->request->post);
 			} else {
 				$this->model_extension_module->editModule($this->request->get['module_id'], $this->request->post);
 			}
-			$this->response->redirect($this->url->link('extension/extension', 'token=' . $this->session->data['token'], 'SSL'));
+			$this->response->redirect($this->url->link('extension/extension/module', 'token=' . $this->session->data['token'], 'SSL'));
 		}
 
 		$data['heading_title'] = $this->language->get('heading_title');
@@ -26,6 +26,9 @@ class ControllerModulesmenu extends Controller {
 		$data['entry_name'] = $this->language->get('entry_name');
 		$data['entry_menu'] = $this->language->get('entry_menu');
 		$data['button_control'] = $this->language->get('button_control');
+        $data['button_save'] = $this->language->get('button_save');
+        $data['button_cancel'] = $this->language->get('button_cancel');
+
 
 		$data['button_control_href'] = $this->url->link('catalog/smenu', 'token=' . $this->session->data['token'], 'SSL');
 
@@ -44,7 +47,7 @@ class ControllerModulesmenu extends Controller {
 
 		$data['breadcrumbs'][] = array(
 			'text'      => $this->language->get('text_module'),
-			'href'      => $this->url->link('extension/extension', 'token=' . $this->session->data['token'], 'SSL')
+			'href'      => $this->url->link('extension/extension/module', 'token=' . $this->session->data['token'], 'SSL')
 		);
 
 		$data['breadcrumbs'][] = array(
@@ -57,7 +60,7 @@ class ControllerModulesmenu extends Controller {
 		} else {
 			$data['action'] = $this->url->link('extension/module/smenu', 'token=' . $this->session->data['token'] . '&module_id=' . $this->request->get['module_id'], 'SSL');
 		}
-		$data['cancel'] = $this->url->link('extension/extension', 'token=' . $this->session->data['token'], 'SSL');
+		$data['cancel'] = $this->url->link('extension/extension/module', 'token=' . $this->session->data['token'], 'SSL');
 
 		if (isset($this->request->get['module_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
 			$module_info = $this->model_extension_module->getModule($this->request->get['module_id']);
