@@ -2426,3 +2426,5 @@
 2017-07-06 13:47:02 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
 2017-07-06 13:47:13 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
 2017-07-06 13:47:36 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-06 16:23:42 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-06 16:23:55 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5

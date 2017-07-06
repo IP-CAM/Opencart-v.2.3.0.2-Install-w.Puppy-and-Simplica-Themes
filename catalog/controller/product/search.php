@@ -1,6 +1,9 @@
 <?php
 class ControllerProductSearch extends Controller {
-	public function index() {
+    /**
+     *
+     */
+    public function index() {
 		$this->load->language('product/search');
 
 		$this->load->model('catalog/category');
@@ -22,7 +25,6 @@ class ControllerProductSearch extends Controller {
 		} else {
 			$tag = '';
 		}
-
 		if (isset($this->request->get['description'])) {
 			$description = $this->request->get['description'];
 		} else {
@@ -471,6 +473,9 @@ class ControllerProductSearch extends Controller {
 				$this->model_account_search->addSearch($search_data);
 			}
 		}
+        $this->load->model('catalog/information');
+        getAllInformationPages();
+		//$data['information_pages'] =
 
 		$data['search'] = $search;
 		$data['description'] = $description;
