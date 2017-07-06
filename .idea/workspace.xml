@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97936547-9f6c-41a3-97e7-23912d5f42ab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.htaccess.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/language/ua-uk/extension/module/category_with_image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/view/template/extension/module/categoty_with_image.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/catalog/controller/common/header_Smenu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpinfo/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.country.catalog.1498745656" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1498745851" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1498747789" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.length_class.2.1498745782" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.2.1498745759" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.stock_status.2.1498745782" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1498747835" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.tax_class.1498745782" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.weight_class.2.1498745782" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.zone.220.1498745656" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/header.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/simplica/template/common/header.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Посилання Opencart.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Структура Opencart.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1499264489" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1499264489" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/common/column_left.php" afterPath="$PROJECT_DIR$/admin/controller/common/column_left.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/design/menu_designer.php" afterPath="$PROJECT_DIR$/admin/controller/design/menu_designer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/module/smenu.php" afterPath="$PROJECT_DIR$/admin/controller/extension/module/smenu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/ua-uk/common/column_left.php" afterPath="$PROJECT_DIR$/admin/language/ua-uk/common/column_left.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/catalog/product.php" afterPath="$PROJECT_DIR$/admin/model/catalog/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/design/menu_designer.php" afterPath="$PROJECT_DIR$/admin/model/design/menu_designer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/module/smenu.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/smenu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/catalog/product.php" afterPath="$PROJECT_DIR$/catalog/model/catalog/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/headerText.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/headerText.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/logs/error.log" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -641,16 +607,15 @@
       <workItem from="1498806471925" duration="23684000" />
       <workItem from="1499064430803" duration="20906000" />
       <workItem from="1499150282418" duration="14554000" />
-      <workItem from="1499239010876" duration="12718000" />
+      <workItem from="1499239010876" duration="12946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237955000" />
+    <option name="totallyTimeSpent" value="238183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2880259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

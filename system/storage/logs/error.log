@@ -2099,3 +2099,10 @@
 2017-07-05 14:51:37 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
 2017-07-05 14:53:18 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
 2017-07-05 14:58:38 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-05 16:44:27 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-05 16:44:38 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-05 16:44:45 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-05 16:44:51 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-05 16:44:58 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-05 16:48:07 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
+2017-07-05 16:48:28 - PHP Notice:  Undefined variable: username in C:\xampp\htdocs\my-opencart\admin\view\template\common\column_left.tpl on line 5
