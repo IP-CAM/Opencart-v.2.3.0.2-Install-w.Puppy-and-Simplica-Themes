@@ -22,8 +22,7 @@ class ModelCatalogInformation extends Model {
 		}
 	}
 	public function getAllInformationPages(){
-       // $query = $this->db->query
-        $data = ("SELECT information_id, title, description FROM".DB_PREFIX ."information_description WHERE id.language_id = " . (int)$this->config->get('config_language_id'));
-        var_dump($data);
+       $query = $this->db->query("SELECT information_id, title, description FROM ".DB_PREFIX . "information_description WHERE language_id = " . (int)$this->config->get('config_language_id'));
+        return $query->rows;
     }
 }

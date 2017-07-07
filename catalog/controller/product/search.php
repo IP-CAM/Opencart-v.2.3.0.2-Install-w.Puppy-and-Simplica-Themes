@@ -473,8 +473,28 @@ class ControllerProductSearch extends Controller {
 				$this->model_account_search->addSearch($search_data);
 			}
 		}
+       /*
         $this->load->model('catalog/information');
-        getAllInformationPages();
+        $InformationData = $this->model_catalog_information->getAllInformationPages();
+
+        $data['findPageURL']=array();
+        $data['findPageTitle']=array();
+
+
+        foreach ($InformationData as $find_data)
+        {
+            if(strripos($find_data['description'],$search))
+            {
+                array_push($data['findPageURL'],$find_data['information_id']);
+                array_push($data['findPageTitle'],$find_data['title']);
+            }
+
+
+        }
+      //  var_dump($data['findPageURL']);
+      //  var_dump($data['findPageTitle']);
+*/
+
 		//$data['information_pages'] =
 
 		$data['search'] = $search;

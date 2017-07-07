@@ -1,0 +1,78 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+/bower_components/
+
+
+# IDE Project files
+/.idea
+/nbproject/private/
+nbproject/
+
+
+# Config and Htaccess Files
+#/upload/.htaccess
+/config.php
+/admin/config.php
+/index.php
+/.htaccess
+
+# Image File
+!/image/no_image.jpg
+
+# Image Cache Files
+/image/cache/*
+!/image/cache/index.html
+
+# Image Product Files
+/image/catalog/products/*
+!/image/catalog/products/index.html
+
+/image/catalog/categories/*
+!/image/catalog/categories/index.html
+
+/image/catalog/manufacturers/*
+!/image/catalog/manufacturers/index.html
+
+/image/catalog/slideshow/*
+!/image/catalog/slideshow/index.html
+
+# Image Demo Files
+/image/catalog/demo/*
+
+# System Cache Files
+/system/storage/cache/*
+!/system/storage/cache/index.html
+
+# Download Files
+/system/storage/download/*
+!/system/storage/download/index.html
+
+# Upload Files
+/system/storage/upload/*
+!/system/storage/upload/index.html
+
+# Log Files
+/system/storage/logs/*
+!/system/storage/logs/index.html
+
+# Flags
+# remove sharp char if you want to add flags to gitignore
+# /upload/flags/*
+
+
+# If you want to ignore install file use following lines [on development mode]
+# /backup.install/*
+# /install/*
+
+# Ignore all vendor files included by composer and the lock file
+/tests/phpunit/vendor/*
+/tests/phpunit/composer.lock
+/vendor/*
+
+# Test Config File
+/tests/phpunit/bootstrap.php
+
+# Composer Files
+/composer.lock
+/composer.phar
