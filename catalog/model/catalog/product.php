@@ -496,7 +496,6 @@ class ModelCatalogProduct extends Model {
 				$implode = array();
 
 				$words = explode(' ', trim(preg_replace('/\s+/', ' ', $data['filter_tag'])));
-
 				foreach ($words as $word) {
 					$implode[] = "pd.tag LIKE '%" . $this->db->escape($word) . "%'";
 				}

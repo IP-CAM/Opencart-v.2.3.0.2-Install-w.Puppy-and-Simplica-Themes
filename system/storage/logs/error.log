@@ -2431,3 +2431,68 @@
 2017-07-06 17:04:15 - PHP Notice:  Undefined index: Count_of_find in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 488
 2017-07-06 17:40:44 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 485
 2017-07-06 17:41:31 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 485
+2017-07-07 13:18:35 - PHP Warning:  Missing argument 1 for ModelCatalogInformation::getInformationPages() in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 24
+2017-07-07 13:19:05 - PHP Notice:  Undefined variable: search_data in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 478
+2017-07-07 15:00:23 - PHP Unknown:  Object of class Config could not be converted to string in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 28
+2017-07-07 15:01:10 - PHP Unknown:  Object of class Config could not be converted to string in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 28
+2017-07-07 15:24:09 - PHP Warning:  array_search() expects at least 2 parameters, 1 given in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 32
+2017-07-07 15:26:11 - PHP Warning:  key() expects parameter 1 to be array, string given in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 32
+2017-07-07 15:43:16 - PHP Notice:  Undefined variable: sql in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 38
+2017-07-07 15:43:16 - PHP Warning:  mysqli::query(): Empty query in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 18
+2017-07-07 15:44:07 - PHP Notice:  Undefined variable: sql in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 38
+2017-07-07 15:44:07 - PHP Warning:  mysqli::query(): Empty query in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 18
+2017-07-07 15:44:15 - PHP Notice:  Undefined variable: sql in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 38
+2017-07-07 15:44:15 - PHP Warning:  mysqli::query(): Empty query in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 18
+2017-07-07 15:50:42 - PHP Notice:  Undefined variable: sql in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 37
+2017-07-07 15:50:42 - PHP Warning:  mysqli::query(): Empty query in C:\xampp\htdocs\my-opencart\system\library\db\mysqli.php on line 18
+2017-07-07 15:50:42 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\my-opencart\catalog\model\catalog\information.php on line 38
+2017-07-07 16:23:50 - PHP Notice:  Undefined index: Search url in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 487
+2017-07-07 16:24:41 - PHP Notice:  Undefined index: Search url in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 487
+2017-07-07 16:24:43 - PHP Notice:  Undefined index: Search url in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 487
+2017-07-07 16:53:35 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:53:35 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:53:50 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:53:53 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:53:55 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:54:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:54:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:54:17 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:54:18 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:54:20 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:54:37 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:54:39 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:54:42 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:55:29 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:55:51 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:55:55 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:59:22 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:59:28 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 16:59:31 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:00:49 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:00:53 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:02:16 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 482
+2017-07-07 17:02:16 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:02:22 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:03:36 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:03:38 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:03:40 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:03:42 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:04:00 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 164
+2017-07-07 17:04:39 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:04:41 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:04:58 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:05:01 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:05:28 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:05:30 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:07:57 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:10:19 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:12:01 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:12:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:12:22 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:12:27 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:12:30 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:15:20 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:15:40 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:15:46 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\my-opencart\catalog\view\theme\default\template\product\search.tpl on line 163
+2017-07-07 17:25:17 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 482
+2017-07-07 17:25:40 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\my-opencart\catalog\controller\product\search.php on line 482

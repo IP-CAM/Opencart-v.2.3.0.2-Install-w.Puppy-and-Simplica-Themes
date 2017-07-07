@@ -145,6 +145,7 @@ class ControllerProductSearch extends Controller {
 		$data['text_compare'] = sprintf($this->language->get('text_compare'), (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0));
 		$data['text_sort'] = $this->language->get('text_sort');
 		$data['text_limit'] = $this->language->get('text_limit');
+		$data['text_information_find'] = $this->language->get('text_information_find');
 
 		$data['entry_search'] = $this->language->get('entry_search');
 		$data['entry_description'] = $this->language->get('entry_description');
@@ -473,27 +474,19 @@ class ControllerProductSearch extends Controller {
 				$this->model_account_search->addSearch($search_data);
 			}
 		}
-       /*
+
         $this->load->model('catalog/information');
-        $InformationData = $this->model_catalog_information->getAllInformationPages();
+        $InformationPages = $this->model_catalog_information->getInformationPages($search);
 
-        $data['findPageURL']=array();
-        $data['findPageTitle']=array();
-
-
-        foreach ($InformationData as $find_data)
-        {
-            if(strripos($find_data['description'],$search))
-            {
-                array_push($data['findPageURL'],$find_data['information_id']);
-                array_push($data['findPageTitle'],$find_data['title']);
+        $data['search_pages'] =array();
+        if($InformationPages) {
+            $i = 0;
+            foreach ($InformationPages as $InformationPage) {
+                $data['search_pages'][$i]['pages_url'] = $this->url->link('information/information&information_id=') . $InformationPage['information_id'];
+                $data['search_pages'][$i]['pages_title'] = $InformationPage['title'];
+                $i++;
             }
-
-
         }
-      //  var_dump($data['findPageURL']);
-      //  var_dump($data['findPageTitle']);
-*/
 
 		//$data['information_pages'] =
 

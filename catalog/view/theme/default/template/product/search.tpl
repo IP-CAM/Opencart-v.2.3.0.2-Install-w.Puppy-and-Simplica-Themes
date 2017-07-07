@@ -159,6 +159,15 @@
       <?php } else { ?>
       <p><?php echo $text_empty; ?></p>
       <?php } ?>
+      <?php if($search_pages){ ?>
+      <h2><?php echo$text_information_find;?></h2>
+      <?php foreach($search_pages as $pages){ ?>
+      <a href=<?php echo $pages['pages_url'];?> >
+        <?php echo $pages['pages_title'];?>
+      </a>
+      <br>
+      <?php } }?>
+
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
