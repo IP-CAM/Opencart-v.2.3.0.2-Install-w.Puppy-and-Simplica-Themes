@@ -474,7 +474,7 @@ class ControllerProductSearch extends Controller {
 				$this->model_account_search->addSearch($search_data);
 			}
 		}
-
+        //Search in information pages------------------
         $this->load->model('catalog/information');
         $InformationPages = $this->model_catalog_information->getInformationPages($search);
 
@@ -487,8 +487,7 @@ class ControllerProductSearch extends Controller {
                 $i++;
             }
         }
-
-		//$data['information_pages'] =
+        //----------------------------------------------
 
 		$data['search'] = $search;
 		$data['description'] = $description;

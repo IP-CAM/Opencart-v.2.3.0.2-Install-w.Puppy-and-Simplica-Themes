@@ -23,7 +23,8 @@ class ModelCatalogInformation extends Model {
 	}
 	public function getInformationPages($SearchTetx){
          if (!empty($SearchTetx)) {
-              $words = explode(' ', trim(preg_replace('/\s+/', ' ',$SearchTetx)));
+              /* пошук по окремих словах
+             $words = explode(' ', trim(preg_replace('/\s+/', ' ',$SearchTetx)));
               if($words[0]!=="") {
                   $sql = "SELECT information_id, title FROM " . DB_PREFIX . "information_description" .
                       " WHERE language_id =" . (int)$this->config->get('config_language_id') . " AND (";
@@ -33,9 +34,18 @@ class ModelCatalogInformation extends Model {
                   }
                   $sql = substr($sql, 0, -4);
                   $sql .= ") GROUP BY information_id;";
+
                   $query = $this->db->query($sql);
                   return $query->rows;
               }
+              */
+             $sql = "SELECT information_id, title FROM " . DB_PREFIX . "information_description" .
+                 " WHERE language_id =" . (int)$this->config->get('config_language_id') . " AND (";
+             $sql .= "CONCAT_WS('|', `title`, `description`) LIKE '%" . $this->db->escape(utf8_strtolower($SearchTetx)) . "%'";
+             $sql .= ") GROUP BY information_id;";
+             $query = $this->db->query($sql);
+             return $query->rows;
          }else return NULL;
+
     }
 }
