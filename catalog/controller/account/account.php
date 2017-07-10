@@ -1,4 +1,5 @@
 <?php
+//test changes
 class ControllerAccountAccount extends Controller {
 	public function index() {
 		if (!$this->customer->isLogged()) {
@@ -29,7 +30,7 @@ class ControllerAccountAccount extends Controller {
 			unset($this->session->data['success']);
 		} else {
 			$data['success'] = '';
-		} 
+		}
 
 		$data['heading_title'] = $this->language->get('heading_title');
 
