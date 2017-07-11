@@ -95,12 +95,12 @@
     <div class="row">
       <div class="col-sm-2">
 	  	<div id="logo1">
-		<img src="<?php echo $logo1; ?>" \>
+		<img src="<?php echo $logo1;?>" height="150px" \>
 		</div>
       </div>
 	  <div class="col-sm-2">
 		<div id="logo2">
-		<img src="<?php echo $logo2; ?>" height = "100%"\>
+		<img src="<?php echo $logo2; ?>" height = "150px"\>
 		</div>
 	  </div>
 	
@@ -114,7 +114,7 @@
     </div>
 	<div class="col-sm-2">
         <div id="logo3">
-		<img src="<?php echo $logo3; ?>" height="100%"\>
+		<img src="<?php echo $logo3; ?>" height="150px"\>
 		</div>
     </div>
 	  <div class="col-sm-3"><?php echo $search; ?>

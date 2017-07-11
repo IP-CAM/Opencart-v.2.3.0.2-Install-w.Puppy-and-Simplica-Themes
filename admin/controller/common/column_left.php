@@ -26,8 +26,7 @@ class ControllerCommonColumnLeft extends Controller {
 				$data['lastname'] = '';
 				$data['user_group'] = '';
 				$data['image'] = '';
-			}
-
+			}			
 		
 			// Create a 3 level menu array
 			// Level 2 can not have children

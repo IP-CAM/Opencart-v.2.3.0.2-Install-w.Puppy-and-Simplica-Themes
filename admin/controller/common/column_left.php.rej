@@ -1,0 +1,11 @@
+diff a/admin/controller/common/column_left.php b/admin/controller/common/column_left.php	(rejected hunks)
+@@ -26,7 +26,8 @@
+ 				$data['lastname'] = '';
+ 				$data['user_group'] = '';
+ 				$data['image'] = '';
+-			}			
++			}
++
+ 		
+ 			// Create a 3 level menu array
+ 			// Level 2 can not have children
