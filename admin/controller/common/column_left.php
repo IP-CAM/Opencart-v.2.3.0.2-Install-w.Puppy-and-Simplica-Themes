@@ -13,7 +13,7 @@ class ControllerCommonColumnLeft extends Controller {
 			if ($user_info) {
 				$data['firstname'] = $user_info['firstname'];
 				$data['lastname'] = $user_info['lastname'];
-	
+                $data['username'] = $user_info['username'];
 				$data['user_group'] = $user_info['user_group'];
 	
 				if (is_file(DIR_IMAGE . $user_info['image'])) {
@@ -26,7 +26,8 @@ class ControllerCommonColumnLeft extends Controller {
 				$data['lastname'] = '';
 				$data['user_group'] = '';
 				$data['image'] = '';
-			}			
+			}
+
 		
 			// Create a 3 level menu array
 			// Level 2 can not have children
