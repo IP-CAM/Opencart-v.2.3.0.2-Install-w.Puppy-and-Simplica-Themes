@@ -131,9 +131,20 @@ div.required .control-label:before {
 #logo {
 	margin: 0 0 10px 0;
 }
+#logo1{
+	width:119px;
+}
+#logo2{
+	width:136px;
+}
+#logo3{
+	width:214px;
+}
 /* header_text */
 #header_text{
 margin-top: 30px;
+width: 240px;
+display: inline-block;
 }
 #mainPhoto{
 	margin-top: -20px;

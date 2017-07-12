@@ -105,13 +105,11 @@
 	  </div>
 	
     <!--  <div class="col-sm-3"><?php echo $cart; ?></div> -->
-	<div class="col-sm-3">
-        <div id="">
+        <div class="col-sm-3">
             <?php
              echo $headerText;
             ?>
         </div>
-    </div>
 	<div class="col-sm-2">
         <div id="logo3">
 		<img src="<?php echo $logo3; ?>" height="150px"\>
