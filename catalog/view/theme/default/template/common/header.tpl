@@ -159,7 +159,15 @@
 <?php if ($homePage) { ?>
 <div class="container" id = "mainPhoto">
     <img src="<?php echo $mainPhoto; ?>" \ width="100%">
+    <span>
+        <br>
+        Кожен наш ДРУГ
+        <br><br>
+        це цілий світ для нас, світ, який міг би й не народитися
+        і який народився тільки завдяки
+        нашій зустрічі!
 
+    </span>
 </div>
 <?php }?>
 
