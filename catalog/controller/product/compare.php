@@ -114,6 +114,14 @@ class ControllerProductCompare extends Controller {
 					}
 				}
 
+                if($product_info['date_of_birth']!='0000-00-00') {
+                    $age = date("Y") - substr($product_info['date_of_birth'], 0, 4);
+                    if($age == 0) $age = false;
+                }else
+                {
+                    $age = false;
+                }
+
 				$data['products'][$product_id] = array(
 					'product_id'   => $product_info['product_id'],
 					'name'         => $product_info['name'],
@@ -136,7 +144,7 @@ class ControllerProductCompare extends Controller {
 					'remove'       => $this->url->link('product/compare', 'remove=' . $product_id),
                     'color'        => $product_info['color'],
                     'breed'        => $product_info['breed'],
-                    'age'        => $product_info['age']
+                    'age'          => $age
 				);
 
 				foreach ($attribute_groups as $attribute_group) {
