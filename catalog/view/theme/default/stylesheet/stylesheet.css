@@ -172,7 +172,7 @@ display: inline-block;
 
 /* language */
 #language {
-	float: right;
+	float: left;
 }
 /* search */
 #search {
