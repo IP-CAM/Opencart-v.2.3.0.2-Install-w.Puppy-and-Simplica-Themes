@@ -51,8 +51,6 @@ class ControllerProductCompare extends Controller {
 		$data['text_weight'] = $this->language->get('text_weight');
 		$data['text_dimension'] = $this->language->get('text_dimension');
 		$data['text_empty'] = $this->language->get('text_empty');
-        $data['text_color'] = $this->language->get('text_color');
-        $data['text_breed'] = $this->language->get('text_breed');
         $data['text_age'] = $this->language->get('text_age');
 
 
@@ -142,8 +140,6 @@ class ControllerProductCompare extends Controller {
 					'attribute'    => $attribute_data,
 					'href'         => $this->url->link('product/product', 'product_id=' . $product_id),
 					'remove'       => $this->url->link('product/compare', 'remove=' . $product_id),
-                    'color'        => $product_info['color'],
-                    'breed'        => $product_info['breed'],
                     'age'          => $age
 				);
 

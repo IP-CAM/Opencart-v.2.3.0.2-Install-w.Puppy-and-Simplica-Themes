@@ -115,14 +115,6 @@
                   <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
                   <?php } ?>
 
-                  <?php if ($product['color']) { ?>
-                  <span class="rating"><?php echo $text_color; ?> <?php echo $product['color']; ?></span>
-                  <?php } ?>
-                  <br>
-                  <?php if ($product['breed']) { ?>
-                  <span class="rating"><?php echo $text_breed; ?> <?php echo $product['breed']; ?></span>
-                  <?php } ?>
-                  <br>
                   <?php if ($product['date_of_birth']) { ?>
                   <span class="rating"><?php echo $text_date_of_birth; ?> <?php echo $product['date_of_birth']; ?></span>
                   <?php } ?>

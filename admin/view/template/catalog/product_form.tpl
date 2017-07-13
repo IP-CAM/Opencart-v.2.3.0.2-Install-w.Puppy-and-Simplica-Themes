@@ -122,22 +122,6 @@
                     </span></div>
                 </div>
               </div>
-
-
-              <div class="form-group">
-                <label class="col-sm-2 control-label" for="input-color"><?php echo $entry_color; ?></label>
-                <div class="col-sm-10">
-                  <input type="text" name="color" value="<?php echo $color; ?>" placeholder="<?php echo $entry_color; ?>" id="input-color" class="form-control" />
-                </div>
-              </div>
-
-
-              <div class="form-group">
-                <label class="col-sm-2 control-label" for="input-breed"><?php echo $entry_breed; ?></label>
-                <div class="col-sm-10">
-                  <input type="text" name="breed" value="<?php echo $breed; ?>" placeholder="<?php echo $entry_breed; ?>" id="input-breed" class="form-control" />
-                </div>
-              </div>
               <!--End Of Test Modification-->
 
               <div class="form-group">

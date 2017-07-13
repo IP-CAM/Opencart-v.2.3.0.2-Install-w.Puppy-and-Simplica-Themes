@@ -615,8 +615,6 @@ class ControllerCatalogProduct extends Controller {
 		$data['entry_layout'] = $this->language->get('entry_layout');
 		$data['entry_recurring'] = $this->language->get('entry_recurring');
         $data['entry_date_of_birth'] = $this->language->get('entry_date_of_birth');
-        $data['entry_color'] = $this->language->get('entry_color');
-        $data['entry_breed'] = $this->language->get('entry_breed');
 
 
 		$data['help_keyword'] = $this->language->get('help_keyword');
@@ -862,21 +860,6 @@ class ControllerCatalogProduct extends Controller {
 			$data['price'] = '';
 		}
 
-        if (isset($this->request->post['breed'])) {
-            $data['breed'] = $this->request->post['breed'];
-        } elseif (!empty($product_info)) {
-            $data['breed'] = $product_info['breed'];
-        } else {
-            $data['breed'] = '';
-        }
-
-        if (isset($this->request->post['color'])) {
-            $data['color'] = $this->request->post['color'];
-        } elseif (!empty($product_info)) {
-            $data['color'] = $product_info['color'];
-        } else {
-            $data['color'] = '';
-        }
 
         if (isset($this->request->post['date_of_birth'])) {
             $data['date_of_birth'] = $this->request->post['date_of_birth'];

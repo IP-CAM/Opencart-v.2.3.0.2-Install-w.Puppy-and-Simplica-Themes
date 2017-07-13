@@ -104,8 +104,6 @@ class ControllerProductCategory extends Controller {
 			$data['text_model'] = $this->language->get('text_model');
 			$data['text_price'] = $this->language->get('text_price');
 			$data['text_tax'] = $this->language->get('text_tax');
-            $data['text_color'] = $this->language->get('text_color');
-            $data['text_breed'] = $this->language->get('text_breed');
             $data['text_date_of_birth'] = $this->language->get('text_date_of_birth');
             $data['text_age'] = $this->language->get('text_age');
 			$data['text_points'] = $this->language->get('text_points');
@@ -220,8 +218,6 @@ class ControllerProductCategory extends Controller {
 					$rating = false;
 				}
 
-                $color = $result['color'];
-                $breed = $result['breed'];
                 if($result['date_of_birth']!='0000-00-00') {
                     $age = date("Y") - substr($result['date_of_birth'], 0, 4);
                     if($age == 0) $age = false;
@@ -247,8 +243,6 @@ class ControllerProductCategory extends Controller {
 					'minimum'     => $result['minimum'] > 0 ? $result['minimum'] : 1,
 					'rating'      => $result['rating'],
 					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url),
-				    'color'       => $color,
-                    'breed'       => $breed,
                     'date_of_birth'=>$result['date_of_birth'],
                     'age'=>$age
                 );
@@ -335,29 +329,6 @@ class ControllerProductCategory extends Controller {
                 'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.date_of_birth&order=DESC' . $url)
             );
 
-            $data['sorts'][] = array(
-                'text'  => $this->language->get('text_color_asc'),
-                'value' => 'p.color-ASC',
-                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.color&order=ASC' . $url)
-            );
-
-            $data['sorts'][] = array(
-                'text'  => $this->language->get('text_color_desc'),
-                'value' => 'p.color-DESC',
-                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.color&order=DESC' . $url)
-            );
-
-            $data['sorts'][] = array(
-                'text'  => $this->language->get('text_breed_desc'),
-                'value' => 'p.breed-DESC',
-                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.breed&order=ASC' . $url)
-            );
-
-            $data['sorts'][] = array(
-                'text'  => $this->language->get('text_breed_asc'),
-                'value' => 'p.breed-ASC',
-                'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.breed&order=DESC' . $url)
-            );
 
             $data['sorts'][] = array(
                 'text'  => $this->language->get('text_price_asc'),
