@@ -116,6 +116,7 @@
 		</div>
     </div>
 	  <div class="col-sm-3"><?php echo $search; ?>
+          <div id="language"><?php echo $language; ?> </div>
       </div>
     </div>
   </div>
