@@ -166,7 +166,7 @@ li.mjs-nestedSortable-leaf { margin:5px 0; border:1px solid #D4D4D4;}
 	<?php foreach ($languages as $language) {
 		$link_name.='<div class="input-group">
 		<span class="input-group-addon">
-			<img src="view/image/flags/'. $language["image"].'" title="'. $language['name'].'" />
+			<img src="language/'.$language["code"].'/'.$language["code"].'.png" />
 		</span>
 		<input type="text" class="form-control" placeholder="'.$column_name.'" name="smenu_item['.$image_row.'][smenu_item_description]['. $language['language_id'].'][text]" value="';
 		$link_name.= isset($smenu_item['description'][$language['language_id']]) ? $smenu_item['description'][$language['language_id']]['text'] : '';
@@ -177,7 +177,7 @@ li.mjs-nestedSortable-leaf { margin:5px 0; border:1px solid #D4D4D4;}
 		$link_name.='</div>';
 		$link_title.='<div class="input-group">
 			<span class="input-group-addon">
-				<img src="view/image/flags/'. $language["image"].'" title="'. $language['name'].'" />
+				<img src="language/'.$language["code"].'/'.$language["code"].'.png" title="'. $language['name'].'" />
 			</span>
 			<input type="text" class="form-control" placeholder="'.$column_title.'" name="smenu_item['.$image_row.'][smenu_item_description]['. $language['language_id'].'][title]" value="';
 		$link_title.= isset($smenu_item['description'][$language['language_id']]) ? $smenu_item['description'][$language['language_id']]['title'] : '';
@@ -198,7 +198,7 @@ li.mjs-nestedSortable-leaf { margin:5px 0; border:1px solid #D4D4D4;}
 			foreach ($languages as $language) {
 				$link_name_child.='<div class="input-group">
 				<span class="input-group-addon">
-					<img src="view/image/flags/'. $language["image"].'" title="'. $language['name'].'" />
+					<img src="language/'.$language["code"].'/'.$language["code"].'.png" title="'. $language['name'].'" />
 				</span>
 				<input type="text" class="form-control" placeholder="'.$column_name.'" name="smenu_item['.$child['item_id'].'][smenu_item_description]['. $language['language_id'].'][text]" value="';
 				$link_name_child.= isset($child['description'][$language['language_id']]) ? $child['description'][$language['language_id']]['text'] : '';
@@ -209,7 +209,7 @@ li.mjs-nestedSortable-leaf { margin:5px 0; border:1px solid #D4D4D4;}
 				$link_name_child.='</div>';
 				$link_title_child.='<div class="input-group">
 					<span class="input-group-addon">
-						<img src="view/image/flags/'. $language["image"].'" title="'. $language['name'].'" />
+						<img src="language/'.$language["code"].'/'.$language["code"].'.png" title="'. $language['name'].'" />
 					</span>
 					<input type="text" class="form-control" placeholder="'.$column_title.'" name="smenu_item['.$child['item_id'].'][smenu_item_description]['. $language['language_id'].'][title]" value="';
 				$link_title_child.= isset($child['description'][$language['language_id']]) ? $child['description'][$language['language_id']]['title'] : '';
