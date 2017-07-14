@@ -682,6 +682,12 @@ class ControllerCatalogProduct extends Controller {
 			$data['error_model'] = '';
 		}
 
+        if (isset($this->error['date_of_birth'])) {
+            $data['error_date_of_birth'] = $this->error['date_of_birth'];
+        } else {
+            $data['error_date_of_birth'] = '';
+        }
+
 		if (isset($this->error['keyword'])) {
 			$data['error_keyword'] = $this->error['keyword'];
 		} else {
@@ -1353,6 +1359,10 @@ class ControllerCatalogProduct extends Controller {
 		if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
 			$this->error['model'] = $this->language->get('error_model');
 		}
+
+		if($this->request->post['date_of_birth']>date("Y-m-d")){
+            $this->error['date_of_birth'] = $this->language->get('error_date_of_birth');
+        }
 
 		if (utf8_strlen($this->request->post['keyword']) > 0) {
 			$this->load->model('catalog/url_alias');
