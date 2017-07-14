@@ -136,17 +136,15 @@ class ControllerProductCompare extends Controller {
                 //------------
 
                 if($product_info['date_of_birth']!='0000-00-00') {
-                    $year = date("Y") - substr($product_info['date_of_birth'], 0, 4);
-                    $month =  date("m") - substr($product_info['date_of_birth'], 5, 2);
-                    if($month<0){$year--;$month+=12;}
-                    $day =  date("d") - substr($product_info['date_of_birth'], 8, 2);
-                    if($day<0){$month--;$day+=31;}
+                    $date_of_birth = new DateTime($product_info['date_of_birth']);
+                    $date_now = new DateTime(date('Y-m-d'));
+                    $date_diff = $date_of_birth->diff($date_now);
                     $age = '';
-                    if(($year + $month + $day) == 0) $age = false;
+                    if(($date_diff->y + $date_diff->m + $date_diff->d) == 0) $age = false;
                     else {
-                        if($year!=0) $age .= $year . ' ' . $plural($year, $text_year, $text_years2, $text_years5);
-                        if($month!=0) $age .=' ' . $month . ' ' . $plural($month, $text_month, $text_months2, $text_months5);
-                        if($day!=0) $age .=' '.  $day . ' ' . $plural($day, $text_day, $text_days2, $text_days5);
+                        if($date_diff->y!=0) $age .= $date_diff->y . ' ' . $plural($date_diff->y, $text_year, $text_years2, $text_years5);
+                        if($date_diff->m!=0) $age .=' ' . $date_diff->m . ' ' . $plural($date_diff->m, $text_month, $text_months2, $text_months5);
+                        if($date_diff->d!=0) $age .=' '.  $date_diff->d . ' ' . $plural($date_diff->d, $text_day, $text_days2, $text_days5);
                     }
                 }else
                 {
