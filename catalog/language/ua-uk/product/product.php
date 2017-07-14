@@ -29,9 +29,16 @@ $_['text_day'] = 'день';
 $_['text_week'] = 'тижня';
 $_['text_semi_month'] = 'півмісяця';
 $_['text_month'] = 'місяць';
+$_['text_age'] = 'Вік';
+$_['text_years5'] = 'років';
+$_['text_years2'] = 'роки';
 $_['text_year'] = 'рік';
-$_['text_color'] = 'Колір';
-
+$_['text_months5'] = 'місяців';
+$_['text_months2'] = 'місяця';
+$_['text_month'] = 'місяць';
+$_['text_days5'] = 'днів';
+$_['text_days2'] = 'дні';
+$_['text_day'] = 'день';
 // Entry
 $_['entry_qty'] = 'Кількість';
 $_['entry_name'] = 'ім&#39;я';

@@ -29,7 +29,17 @@ $_['text_day']                                = 'день';
 $_['text_week']                               = 'недели';
 $_['text_semi_month']                         = 'полмесяца';
 $_['text_month']                              = 'месяц';
-$_['text_year']                               = 'год';
+$_['text_age']  ='возраст';
+$_['text_years5'] = 'лет';
+$_['text_years2'] = 'года';
+$_['text_year'] = 'год';
+$_['text_months5'] = 'месяцев';
+$_['text_months2'] = 'месяца';
+$_['text_month'] = 'месяц';
+$_['text_days5'] = 'дней';
+$_['text_days2'] = 'дни';
+$_['text_day'] = 'день';
+
 
 // Entry
 $_['entry_qty']                               = 'Количество';

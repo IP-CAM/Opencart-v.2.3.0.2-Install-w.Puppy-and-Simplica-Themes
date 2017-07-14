@@ -26,7 +26,14 @@ $_['text_date_of_birth_asc'] = 'Возраст (начиная с старшег
 $_['text_date_of_birth_desc'] = 'Возраст (начиная с младшего)';
 $_['text_date_of_birth'] = "Дата рождения";
 $_['text_age'] = 'Возраст';
-$_['text_years'] = 'Лет';
-$_['text_year'] = 'Год';
+$_['text_years5'] = 'лет';
+$_['text_years2'] = 'года';
+$_['text_year'] = 'год';
+$_['text_months5'] = 'месяцев';
+$_['text_months2'] = 'месяца';
+$_['text_month'] = 'месяц';
+$_['text_days5'] = 'дней';
+$_['text_days2'] = 'дни';
+$_['text_day'] = 'день';
 
 

@@ -51,14 +51,21 @@ class ControllerProductCompare extends Controller {
 		$data['text_weight'] = $this->language->get('text_weight');
 		$data['text_dimension'] = $this->language->get('text_dimension');
 		$data['text_empty'] = $this->language->get('text_empty');
-        $data['text_age'] = $this->language->get('text_age');
-
-
+		$data['text_age'] = $this->language->get('text_age');
 		$data['button_continue'] = $this->language->get('button_continue');
 		$data['button_cart'] = $this->language->get('button_cart');
 		$data['button_remove'] = $this->language->get('button_remove');
+        $text_year = $this->language->get('text_year');
+        $text_years2 = $this->language->get('text_years2');
+        $text_years5 = $this->language->get('text_years5');
+        $text_month = $this->language->get('text_month');
+        $text_months2 = $this->language->get('text_months2');
+        $text_months5 = $this->language->get('text_months5');
+        $text_day = $this->language->get('text_day');
+        $text_days2 = $this->language->get('text_days2');
+        $text_days5 = $this->language->get('text_days5');
 
-		if (isset($this->session->data['success'])) {
+        if (isset($this->session->data['success'])) {
 			$data['success'] = $this->session->data['success'];
 
 			unset($this->session->data['success']);
@@ -111,10 +118,36 @@ class ControllerProductCompare extends Controller {
 						$attribute_data[$attribute['attribute_id']] = $attribute['text'];
 					}
 				}
+                //Відмінювання чисельників
+                $plural = function($number, $one, $two, $five) {
+                    if (($number - $number % 10) % 100 != 10) {
+                        if ($number % 10 == 1) {
+                            $result = $one;
+                        } elseif ($number % 10 >= 2 && $number % 10 <= 4) {
+                            $result = $two;
+                        } else {
+                            $result = $five;
+                        }
+                    } else {
+                        $result = $five;
+                    }
+                    return $result;
+                };
+                //------------
 
                 if($product_info['date_of_birth']!='0000-00-00') {
-                    $age = date("Y") - substr($product_info['date_of_birth'], 0, 4);
-                    if($age == 0) $age = false;
+                    $year = date("Y") - substr($product_info['date_of_birth'], 0, 4);
+                    $month =  date("m") - substr($product_info['date_of_birth'], 5, 2);
+                    if($month<0){$year--;$month+=12;}
+                    $day =  date("d") - substr($product_info['date_of_birth'], 8, 2);
+                    if($day<0){$month--;$day+=31;}
+                    $age = '';
+                    if(($year + $month + $day) == 0) $age = false;
+                    else {
+                        if($year!=0) $age .= $year . ' ' . $plural($year, $text_year, $text_years2, $text_years5);
+                        if($month!=0) $age .=' ' . $month . ' ' . $plural($month, $text_month, $text_months2, $text_months5);
+                        if($day!=0) $age .=' '.  $day . ' ' . $plural($day, $text_day, $text_days2, $text_days5);
+                    }
                 }else
                 {
                     $age = false;

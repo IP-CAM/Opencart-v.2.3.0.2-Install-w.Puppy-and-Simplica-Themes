@@ -110,8 +110,16 @@ class ControllerProductCategory extends Controller {
 			$data['text_compare'] = sprintf($this->language->get('text_compare'), (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0));
 			$data['text_sort'] = $this->language->get('text_sort');
 			$data['text_limit'] = $this->language->get('text_limit');
-            $data['text_year'] = $this->language->get('text_year');
-            $data['text_years'] = $this->language->get('text_years');
+            $text_year = $this->language->get('text_year');
+            $text_years2 = $this->language->get('text_years2');
+            $text_years5 = $this->language->get('text_years5');
+            $text_month = $this->language->get('text_month');
+            $text_months2 = $this->language->get('text_months2');
+            $text_months5 = $this->language->get('text_months5');
+            $text_day = $this->language->get('text_day');
+            $text_days2 = $this->language->get('text_days2');
+            $text_days5 = $this->language->get('text_days5');
+
             $data['text_passport'] = $this->language->get('text_passport');
 
 			$data['button_cart'] = $this->language->get('button_cart');
@@ -218,11 +226,27 @@ class ControllerProductCategory extends Controller {
 					$rating = false;
 				}
 
+                $plural = function($number, $one, $two, $five) {
+                    if (($number - $number % 10) % 100 != 10) {
+                        if ($number % 10 == 1) {
+                            $result = $one;
+                        } elseif ($number % 10 >= 2 && $number % 10 <= 4) {
+                            $result = $two;
+                        } else {
+                            $result = $five;
+                        }
+                    } else {
+                        $result = $five;
+                    }
+                    return $result;
+                };
+
                 if($result['date_of_birth']!='0000-00-00') {
                     $age = date("Y") - substr($result['date_of_birth'], 0, 4);
                     if($age == 0) $age = false;
-                    else if ($age == 1) $age .= ' ' . $data['text_year'];
-                    else $age .= ' ' . $data['text_years'];
+                    else {
+                        $age .= ' ' . $plural($age, $text_year, $text_years2, $text_years5);
+                         }
                 }else
                 {
                     $result['date_of_birth'] = false;

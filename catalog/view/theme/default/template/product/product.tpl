@@ -133,12 +133,6 @@
             <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>
             <?php } ?>
             <!--<li><?php echo $text_model; ?> <?php echo $model; ?></li>-->
-            <?php if ($breed) { ?>
-            <li><?php echo $text_breed; ?> <?php echo $breed; ?></li>
-            <?php } ?>
-            <?php if ($color) { ?>
-            <li><?php echo $text_color; ?> <?php echo $color; ?></li>
-            <?php } ?>
             <?php if ($age) { ?>
             <li><?php echo $text_age; ?> <?php echo $age; ?></li>
             <?php } ?>
