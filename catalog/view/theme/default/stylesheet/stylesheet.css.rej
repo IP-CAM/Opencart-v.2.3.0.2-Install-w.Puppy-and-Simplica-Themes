@@ -1,0 +1,9 @@
+diff a/catalog/view/theme/default/stylesheet/stylesheet.css b/catalog/view/theme/default/stylesheet/stylesheet.css	(rejected hunks)
+@@ -3,6 +3,7 @@
+ 	font-family: 'Open Sans';
+ 	font-weight: 400;
+ 	color: #666;
++	font-size: 14px;
+ 	line-height: 20px;
+ 	width: 100%;
+ }

@@ -346,12 +346,12 @@ function addItemTree() {
 	html += '<div id="menuEdit' + image_row + '" class="menuEdit-open">';
 	html += '	<div class="row"><div class="col-md-4">';
 	<?php foreach ($languages as $language) { ?>
-		html += '<div class="input-group"><span class="input-group-addon"><img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /></span><input type="text" class="form-control" placeholder="<?php echo $column_name; ?>" name="smenu_item[' + image_row + '][smenu_item_description][<?php echo $language['language_id']; ?>][text]" value="" /></div>';
+		html += '<div class="input-group"><span class="input-group-addon"><img src="language/<?php echo $language["code"].'/'.$language["code"].'.png'; ?>" title="<?php echo $language['name']; ?>" /></span><input type="text" class="form-control" placeholder="<?php echo $column_name; ?>" name="smenu_item[' + image_row + '][smenu_item_description][<?php echo $language['language_id']; ?>][text]" value="" /></div>';
 	<?php } ?>
 	html += '</div>';
 	html += '<div class="col-md-4">';
 	<?php foreach ($languages as $language) { ?>
-		html += '<div class="input-group"><span class="input-group-addon"><img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /></span><input type="text" class="form-control" placeholder="<?php echo $column_title; ?>" name="smenu_item[' + image_row + '][smenu_item_description][<?php echo $language['language_id']; ?>][title]" value="" /></div>';
+		html += '<div class="input-group"><span class="input-group-addon"><img src="language/<?php echo $language["code"].'/'.$language["code"].'.png'; ?>" title="<?php echo $language['name']; ?>" /></span><input type="text" class="form-control" placeholder="<?php echo $column_title; ?>" name="smenu_item[' + image_row + '][smenu_item_description][<?php echo $language['language_id']; ?>][title]" value="" /></div>';
 	<?php } ?>
 	html += '</div>';
 	html += '<div class="col-md-4">';
