@@ -103,8 +103,6 @@
 		<img src="<?php echo $logo2; ?>" height = "150px"\>
 		</div>
 	  </div>
-	
-    <!--  <div class="col-sm-3"><?php echo $cart; ?></div> -->
         <div class="col-sm-3">
             <?php
              echo $headerText;
@@ -115,7 +113,9 @@
 		<img src="<?php echo $logo3; ?>" height="150px"\>
 		</div>
     </div>
-	  <div class="col-sm-3"><?php echo $search; ?>
+	  <div class="col-sm-3">
+          <?php echo $cart; ?>
+          <?php echo $search; ?>
           <div id="language"><?php echo $language; ?> </div>
       </div>
     </div>

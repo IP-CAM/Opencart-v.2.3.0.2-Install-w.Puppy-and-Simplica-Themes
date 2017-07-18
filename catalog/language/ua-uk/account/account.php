@@ -19,4 +19,4 @@ $_['text_return'] = 'Запити на повернення';
 $_['text_transaction'] = 'Історія транзакцій';
 $_['text_newsletter'] = 'Підписатися або відмовитися від розсилки новин';
 $_['text_recurring'] = 'Періодичні платежі';
-$_['text_transactions'] = 'Транзакції;
+$_['text_transactions'] = 'Транзакції';
