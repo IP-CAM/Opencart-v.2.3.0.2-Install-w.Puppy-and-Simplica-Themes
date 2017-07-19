@@ -190,6 +190,14 @@ display: inline-block;
 	padding: 10px 35px;
 	text-shadow: 0 1px 0 #FFF;
 }
+/* account*/
+#account{
+	padding-top: 8px;
+}
+#account>a{
+	padding-left: 10px;
+}
+
 /* cart */
 #cart {
 	margin-bottom: 10px;

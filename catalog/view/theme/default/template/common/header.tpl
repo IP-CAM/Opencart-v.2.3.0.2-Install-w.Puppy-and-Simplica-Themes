@@ -117,6 +117,16 @@
           <?php echo $cart; ?>
           <?php echo $search; ?>
           <div id="language"><?php echo $language; ?> </div>
+          <div id ="account">
+          <?php if ($logged) { ?>
+          <a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
+          <a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a>
+          <?php } else { ?>
+          <a href="<?php echo $register; ?>"><?php echo $text_register; ?></a>
+          <a href="<?php echo $login; ?>"><?php echo $text_login; ?></a>
+          <?php } ?>
+          </div>
+
       </div>
     </div>
   </div>
