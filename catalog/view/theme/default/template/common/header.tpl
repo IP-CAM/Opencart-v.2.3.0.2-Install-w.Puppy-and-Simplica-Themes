@@ -23,7 +23,6 @@
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-<!--    <link href="catalog/view/theme/default/stylesheet/my.css" rel="stylesheet">-->
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
@@ -93,26 +92,16 @@
     <div class="container">
   <div class="Gallery ">
     <div class="row">
-      <div class="col-sm-2">
-	  	<div id="logo1">
-		<img src="<?php echo $logo1;?>" height="150px" \>
-		</div>
+      <div class="col-sm-9">
+          <div id = image_left>
+              <img id ="logo_ua" src="<?php echo $logo1; ?>"\>
+              <img id ="logo_en" src="<?php echo $logo2; ?>"\>
+          </div>
+          <div id = "image_logo_asotiation">
+              <img src="<?php echo $logo3; ?>"\>
+          </div>
+              <?php echo $headerText; ?>
       </div>
-	  <div class="col-sm-2">
-		<div id="logo2">
-		<img src="<?php echo $logo2; ?>" height = "150px"\>
-		</div>
-	  </div>
-        <div class="col-sm-3">
-            <?php
-             echo $headerText;
-            ?>
-        </div>
-	<div class="col-sm-2">
-        <div id="logo3">
-		<img src="<?php echo $logo3; ?>" height="150px"\>
-		</div>
-    </div>
 	  <div class="col-sm-3">
           <?php echo $cart; ?>
           <?php echo $search; ?>
