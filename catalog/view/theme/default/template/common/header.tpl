@@ -156,11 +156,13 @@
     </div>
   </nav>
 </div>
+<!--
 <?php if ($homePage) { ?>
 <div class="container" id = "mainPhoto">
     <img src="<?php echo $mainPhoto; ?>" \ width="100%">
 
 </div>
 <?php }?>
+-->
 
 <?php } ?>
