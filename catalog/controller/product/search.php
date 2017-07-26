@@ -476,7 +476,7 @@ class ControllerProductSearch extends Controller {
 		}
         //Search in information pages------------------
         $this->load->model('catalog/information');
-        $InformationPages = $this->model_catalog_information->getInformationPages($search);
+        $InformationPages = $this->model_catalog_information->getInformationPages2($search);
 
         $data['search_pages'] =array();
         if($InformationPages) {

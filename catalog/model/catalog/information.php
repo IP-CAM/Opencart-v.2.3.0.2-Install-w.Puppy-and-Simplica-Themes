@@ -48,4 +48,13 @@ class ModelCatalogInformation extends Model {
          }else return NULL;
 
     }
+    public function getInformationPages2($SearchTetx){
+        if (!empty($SearchTetx)) {
+            $sql = "SELECT information_id, title FROM " . DB_PREFIX . "information_description";
+            $sql .=" WHERE MATCH(title, description) AGAINST ('".$this->db->escape($SearchTetx) ."')";
+            $sql .=" AND `language_id` = '".(int)$this->config->get('config_language_id')."';";
+            $query = $this->db->query($sql);
+            return $query->rows;
+        }else return NULL;
+    }
 }
