@@ -18662,3 +18662,975 @@ LINE: 114
 CODE: </body></html>
 LINE: 107
 ----------------------------------------------------------------
+2017-07-26 16:24:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Product Import Export Suite
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 646
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
+2017-07-26 16:27:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Product Import Export Suite
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 646
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
+2017-07-26 16:32:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Product Import Export Suite
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 646
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
+2017-07-26 16:32:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Product Import Export Suite
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 646
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
+2017-07-26 16:32:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Product Import Export Suite
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 646
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
+2017-07-26 16:32:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Product Import Export Suite
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 646
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
+2017-07-26 17:00:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Product Import Export Suite
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 646
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
+2017-07-26 17:05:01 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Product Import Export Suite
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: // Text
+LINE: 7
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 646
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
+2017-07-27 9:56:54 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Dibs Easy Payment Modification
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 6
+----------------------------------------------------------------
+MOD: Simplica Theme
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+LINE: 8
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <p class="pull-left"><?php echo $powered; ?></p>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Blueimp Gallery PRO by GrandCMS.com
+----------------------------------------------------------------
+MOD: Custom Templates module
+
+FILE: catalog/controller/product/category.php
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 456
+
+FILE: catalog/controller/product/product.php
+CODE: $this->response->setOutput($this->load->view('product/product', $data));
+LINE: 521
+
+FILE: catalog/controller/information/information.php
+CODE: $this->response->setOutput($this->load->view('information/information', $data));
+LINE: 47
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->response->setOutput($this->load->view('product/manufacturer_info', $data));
+LINE: 361
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.12) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 644
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/ua-uk/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: TO TOP
+CODE: </body></html>
+LINE: 114
+----------------------------------------------------------------
