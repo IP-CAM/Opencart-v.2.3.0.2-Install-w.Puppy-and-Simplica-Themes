@@ -226,20 +226,6 @@ class ControllerProductCategory extends Controller {
 					$rating = false;
 				}
 
-                $plural = function($number, $one, $two, $five) {
-                    if (($number - $number % 10) % 100 != 10) {
-                        if ($number % 10 == 1) {
-                            $result = $one;
-                        } elseif ($number % 10 >= 2 && $number % 10 <= 4) {
-                            $result = $two;
-                        } else {
-                            $result = $five;
-                        }
-                    } else {
-                        $result = $five;
-                    }
-                    return $result;
-                };
 
                 if($result['date_of_birth']!='0000-00-00') {
                     $date_of_birth = new DateTime($result['date_of_birth']);
@@ -248,9 +234,9 @@ class ControllerProductCategory extends Controller {
                     $age = '';
                     if(($date_diff->y + $date_diff->m + $date_diff->d) == 0) $age = false;
                     else {
-                        if($date_diff->y!=0) $age .= $date_diff->y . ' ' . $plural($date_diff->y, $text_year, $text_years2, $text_years5);
-                        if($date_diff->m!=0) $age .=' ' . $date_diff->m . ' ' . $plural($date_diff->m, $text_month, $text_months2, $text_months5);
-                        if($date_diff->d!=0) $age .=' '.  $date_diff->d . ' ' . $plural($date_diff->d, $text_day, $text_days2, $text_days5);
+                        if($date_diff->y!=0) $age .= $date_diff->y . ' ' . $this->model_catalog_product->pluralNumeral($date_diff->y, $text_year, $text_years2, $text_years5);
+                        if($date_diff->m!=0) $age .=' ' . $date_diff->m . ' ' . $this->model_catalog_product->pluralNumeral($date_diff->m, $text_month, $text_months2, $text_months5);
+                        if($date_diff->d!=0) $age .=' '.  $date_diff->d . ' ' . $this->model_catalog_product->pluralNumeral($date_diff->d, $text_day, $text_days2, $text_days5);
                     }
                 }else
                 {
