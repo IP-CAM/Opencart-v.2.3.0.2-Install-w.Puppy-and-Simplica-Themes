@@ -76,3 +76,5 @@ nbproject/
 # Composer Files
 /composer.lock
 /composer.phar
+admin/model/tool/export_import.php.rej
+catalog/controller/product/search.php.rej
