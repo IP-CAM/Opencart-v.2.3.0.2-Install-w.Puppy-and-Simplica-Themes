@@ -6,7 +6,7 @@ $_['text_attribute'] = 'Атрибути';
 $_['text_attribute_group'] = 'Групи атрибутів';
 $_['text_backup'] = 'Імпорт / Експорт';
 
-$_['text_export_import'] = 'Ексорт / Імпорт продуктів';
+$_['text_export_import'] = 'Ексорт / Імпорт в Exel';
 			
 $_['text_banner'] = 'Банери';
 $_['text_catalog'] = 'Каталог';
