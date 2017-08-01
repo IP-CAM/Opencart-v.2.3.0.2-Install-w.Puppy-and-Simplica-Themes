@@ -969,6 +969,7 @@ class ModelToolExportImport extends Model {
 		$date_added = $product['date_added'];
 		$date_modified = $product['date_modified'];
 		$date_available = $product['date_available'];
+		$date_of_birth = $product['date_of_birth'];
 		$weight = ($product['weight']=="") ? 0 : $product['weight'];
 		$weight_unit = $product['weight_unit'];
 		$weight_class_id = (isset($weight_class_ids[$weight_unit])) ? $weight_class_ids[$weight_unit] : 0;
@@ -1027,7 +1028,7 @@ class ModelToolExportImport extends Model {
 		$sql .= in_array('jan',$product_fields) ? "`jan`," : "";
 		$sql .= in_array('isbn',$product_fields) ? "`isbn`," : "";
 		$sql .= in_array('mpn',$product_fields) ? "`mpn`," : "";
-		$sql .= "`location`,`stock_status_id`,`model`,`manufacturer_id`,`image`,`shipping`,`price`,`points`,`date_added`,`date_modified`,`date_available`,`weight`,`weight_class_id`,`status`,";
+		$sql .= "`location`,`stock_status_id`,`model`,`manufacturer_id`,`image`,`shipping`,`price`,`points`,`date_added`,`date_modified`,`date_available`,`date_of_birth`,`weight`,`weight_class_id`,`status`,";
 		$sql .= "`tax_class_id`,`viewed`,`length`,`width`,`height`,`length_class_id`,`sort_order`,`subtract`,`minimum`) VALUES ";
 		$sql .= "($product_id,$quantity,'$sku','$upc',";
 		$sql .= in_array('ean',$product_fields) ? "'$ean'," : "";
@@ -1038,9 +1039,11 @@ class ModelToolExportImport extends Model {
 		$sql .= ($date_added=='NOW()') ? "$date_added," : "'$date_added',";
 		$sql .= ($date_modified=='NOW()') ? "$date_modified," : "'$date_modified',";
 		$sql .= ($date_available=='NOW()') ? "$date_available," : "'$date_available',";
-		$sql .= "$weight,$weight_class_id,$status,";
+        $sql .="'$date_of_birth',";
+        $sql .= "$weight,$weight_class_id,$status,";
 		$sql .= "$tax_class_id,$viewed,$length,$width,$height,'$length_class_id','$sort_order','$subtract','$minimum');";
 		$this->db->query($sql);
+
 		foreach ($languages as $language) {
 			$language_code = $language['code'];
 			$language_id = $language['language_id'];
@@ -1314,6 +1317,8 @@ class ModelToolExportImport extends Model {
 			$date_modified = ((is_string($date_modified)) && (strlen($date_modified)>0)) ? $date_modified : "NOW()";
 			$date_available = $this->getCell($data,$i,$j++);
 			$date_available = ((is_string($date_available)) && (strlen($date_available)>0)) ? $date_available : "NOW()";
+            $date_of_birth = $this->getCell($data,$i,$j++);
+            $date_of_birth = ((is_string($date_of_birth)) && (strlen($date_of_birth)>0)) ? $date_of_birth : NULL;
 			$weight = $this->getCell($data,$i,$j++,'0');
 			$weight_unit = $this->getCell($data,$i,$j++,$default_weight_unit);
 			$length = $this->getCell($data,$i,$j++,'0');
@@ -1387,6 +1392,7 @@ class ModelToolExportImport extends Model {
 			$product['date_added'] = $date_added;
 			$product['date_modified'] = $date_modified;
 			$product['date_available'] = $date_available;
+            $product['date_of_birth'] = $date_of_birth;
 			$product['weight'] = $weight;
 			$product['weight_unit'] = $weight_unit;
 			$product['status'] = $status;
@@ -3993,9 +3999,9 @@ class ModelToolExportImport extends Model {
 			$expected_heading[] = "mpn";
 		}
 		if ($this->use_table_seo_url) {
-			$expected_heading = array_merge( $expected_heading, array( "location", "quantity", "model", "manufacturer", "image_name", "shipping", "price", "points", "date_added", "date_modified", "date_available", "weight", "weight_unit", "length", "width", "height", "length_unit", "status", "tax_class_id", "description") );
+			$expected_heading = array_merge( $expected_heading, array( "location", "quantity", "model", "manufacturer", "image_name", "shipping", "price", "points", "date_added", "date_modified", "date_available","date_of_birth", "weight", "weight_unit", "length", "width", "height", "length_unit", "status", "tax_class_id", "description") );
 		} else {
-			$expected_heading = array_merge( $expected_heading, array( "location", "quantity", "model", "manufacturer", "image_name", "shipping", "price", "points", "date_added", "date_modified", "date_available", "weight", "weight_unit", "length", "width", "height", "length_unit", "status", "tax_class_id", "seo_keyword", "description") );
+			$expected_heading = array_merge( $expected_heading, array( "location", "quantity", "model", "manufacturer", "image_name", "shipping", "price", "points", "date_added", "date_modified", "date_available","date_of_birth", "weight", "weight_unit", "length", "width", "height", "length_unit", "status", "tax_class_id", "seo_keyword", "description") );
 		}
 		if ($exist_meta_title) {
 			$expected_heading[] = "meta_title";
@@ -6732,6 +6738,7 @@ class ModelToolExportImport extends Model {
 		$sql .= "  p.date_added,";
 		$sql .= "  p.date_modified,";
 		$sql .= "  p.date_available,";
+        $sql .= "  p.date_of_birth,";
 		$sql .= "  p.weight,";
 		$sql .= "  wc.unit AS weight_unit,";
 		$sql .= "  p.length,";
@@ -6847,6 +6854,7 @@ class ModelToolExportImport extends Model {
 		$worksheet->getColumnDimensionByColumn($j++)->setWidth(max(strlen('date_added'),19)+1);
 		$worksheet->getColumnDimensionByColumn($j++)->setWidth(max(strlen('date_modified'),19)+1);
 		$worksheet->getColumnDimensionByColumn($j++)->setWidth(max(strlen('date_available'),10)+1);
+        $worksheet->getColumnDimensionByColumn($j++)->setWidth(max(strlen('date_of_birth'),10)+1);
 		$worksheet->getColumnDimensionByColumn($j++)->setWidth(max(strlen('weight'),6)+1);
 		$worksheet->getColumnDimensionByColumn($j++)->setWidth(max(strlen('weight_unit'),3)+1);
 		$worksheet->getColumnDimensionByColumn($j++)->setWidth(max(strlen('length'),8)+1);
@@ -6931,6 +6939,7 @@ class ModelToolExportImport extends Model {
 		$data[$j++] = 'date_added';
 		$data[$j++] = 'date_modified';
 		$data[$j++] = 'date_available';
+        $data[$j++] = 'date_of_birth';
 		$styles[$j] = &$weight_format;
 		$data[$j++] = 'weight';
 		$data[$j++] = 'weight_unit';
@@ -7020,6 +7029,7 @@ class ModelToolExportImport extends Model {
 			$data[$j++] = $row['date_added'];
 			$data[$j++] = $row['date_modified'];
 			$data[$j++] = $row['date_available'];
+            $data[$j++] = $row['date_of_birth'];
 			$data[$j++] = $row['weight'];
 			$data[$j++] = $row['weight_unit'];
 			$data[$j++] = $row['length'];
