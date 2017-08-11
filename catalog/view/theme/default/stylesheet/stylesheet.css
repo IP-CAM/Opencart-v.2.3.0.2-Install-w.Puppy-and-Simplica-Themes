@@ -283,7 +283,7 @@ font-size: 32px;
 		display: none;
 	}
 	#promo-image {
-		background-position-x:-100px;
+		background-position:-100px,0px;
 	}
 
 }
