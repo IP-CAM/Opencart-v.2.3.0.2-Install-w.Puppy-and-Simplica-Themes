@@ -63,6 +63,8 @@ class ControllerCommonHeader extends Controller {
 		$data['text_checkout'] = $this->language->get('text_checkout');
 		$data['text_category'] = $this->language->get('text_category');
 		$data['text_all'] = $this->language->get('text_all');
+        $data['text_promo_title']= $this->language->get('text_promo_title');
+		$data['text_promo_description']= $this->language->get('text_promo_description');
 
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
@@ -82,6 +84,7 @@ class ControllerCommonHeader extends Controller {
         $data['logo2'] = $server . 'catalog/view/theme/default/image/logo2.png';
         $data['logo3'] = $server . 'catalog/view/theme/default/image/logo3.png';
         $data['mainPhoto'] = $server . 'catalog/view/theme/default/image/MainPhoto.png';
+        $data['promo_image_heart'] = $server . 'catalog/view/theme/default/image/promo_image_heart.png';
 
 		$status = true;
 

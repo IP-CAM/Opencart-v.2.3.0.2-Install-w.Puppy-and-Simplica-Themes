@@ -226,8 +226,72 @@ div.required .control-label:before {
 	}
 
 }
-#mainPhoto{
+
+/* Promo*/
+#cw{
 	margin-top: -20px;
+}
+#wrapper{
+	width:100%;
+	height:485px;
+}
+#promo-image{
+	height:100%;
+	width:100%;
+	background-size: cover;
+}
+#promo-text{
+	background: rgba(0,0,0,.5);
+	float:right;
+	height:100%;
+	width:397px;
+	padding: 15px;
+	padding-top:40px;
+	color: white;
+	font-family: Georgia;
+	line-height:1.2;
+}
+#promo-img_heart{
+	width:168px;
+	height: 150px;
+	float: right;
+	background-size: cover;
+
+}
+#promo-title{
+	font-size: 38px;
+	padding-bottom: 20px;
+}
+#promo-description{
+font-size: 32px;
+}
+@media (max-width: 750px) {
+	#promo-text{
+		float: left;
+		height: 200px;
+		width: 100%;
+		margin-top: 285px;
+		padding: 10px;
+	}
+	#promo-title{
+		font-size: 25px;
+	}
+	#promo-description{
+		font-size: 20px;
+	}
+	#promo-img_heart{
+		display: none;
+	}
+	#promo-image {
+		background-position-x:-100px;
+	}
+
+}
+@media (max-width: 300px) {
+	#promo-text{
+		margin-top: 235px;
+		height: 250px;
+	}
 }
 /* language */
 #language {

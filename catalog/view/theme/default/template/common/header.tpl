@@ -146,6 +146,7 @@
             </div>
            <!-- <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
       -->
+
         </li>
         <?php } else { ?>
         <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
@@ -156,13 +157,30 @@
     </div>
   </nav>
 </div>
-<!--
+
 <?php if ($homePage) { ?>
-<div class="container" id = "mainPhoto">
-    <img src="<?php echo $mainPhoto; ?>" \ width="100%">
+<div id = "cw" class="container">
+        <div id="wrapper"; class="gallery">
+            <div id="promo-image"  style="background-image:url( <?php echo $mainPhoto; ?>) ">
+                <div id="promo-text">
+                       <div id="promo-title">
+                           <?php echo($text_promo_title); ?>
+                       </div>
+                       <div id="promo-description">
+                           <?php echo($text_promo_description); ?>
+                       </div>
+                        <div id = "promo-img_heart" style="background-image:url( <?php echo $promo_image_heart; ?>)">
+
+                        </div>
+
+
+                </div>
+            </div>
+        </div>
+</div>
 
 </div>
 <?php }?>
--->
+
 
 <?php } ?>
