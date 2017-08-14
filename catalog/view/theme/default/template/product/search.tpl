@@ -162,9 +162,15 @@
       <?php if($search_pages){ ?>
       <h2><?php echo$text_information_find;?></h2>
       <?php foreach($search_pages as $pages){ ?>
+      <div class="coll-sm-12 search-pages">
       <a href=<?php echo $pages['pages_url'];?> >
         <?php echo $pages['pages_title'];?>
       </a>
+      </div>
+      <div class="search-pages-description coll-sm-12">
+        <?php echo $pages['pages_description'];?>
+      </div>
+
       <br>
       <?php } }?>
 

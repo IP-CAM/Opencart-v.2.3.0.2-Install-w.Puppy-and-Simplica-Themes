@@ -477,13 +477,30 @@ class ControllerProductSearch extends Controller {
         //Search in information pages------------------
         $this->load->model('catalog/information');
         $InformationPages = $this->model_catalog_information->getInformationPages2($search);
-
+        $searchWords = explode(" ",$search);
         $data['search_pages'] =array();
         if($InformationPages) {
             $i = 0;
             foreach ($InformationPages as $InformationPage) {
                 $data['search_pages'][$i]['pages_url'] = $this->url->link('information/information&information_id=') . $InformationPage['information_id'];
                 $data['search_pages'][$i]['pages_title'] = $InformationPage['title'];
+
+                $allPage = strip_tags(html_entity_decode($InformationPage['description'], ENT_QUOTES, 'UTF-8'));
+               $pageSentences = explode(".",$allPage);
+               $allPage ='';
+               foreach ($pageSentences as $sentence)
+               {
+                   $queryInSentence = false;
+                   foreach ($searchWords as $word) {
+                       if (is_numeric(strripos($sentence, $word))) {
+                            $sentence = str_replace($word, "<b>" . $word . "</b>", $sentence);
+                            $queryInSentence= true;
+                       }
+                   }
+                   if($queryInSentence) $allPage .=$sentence .'.  <br>';
+               }
+
+                $data['search_pages'][$i]['pages_description'] =  $allPage;
                 $i++;
             }
         }
