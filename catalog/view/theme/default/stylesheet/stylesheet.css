@@ -330,6 +330,10 @@ font-size: 32px;
 }
 .search-pages>a{
 	color: white;
+
+}
+.search-pages>a:hover{
+	text-decoration: underline;
 }
 .search-pages-description{
 	min-height: 40px;
